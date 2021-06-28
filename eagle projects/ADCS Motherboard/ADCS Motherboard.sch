@@ -24279,6 +24279,123 @@ Source: www.kingbright.com</description>
 <rectangle x1="13.589" y1="-4.699" x2="14.351" y2="-2.921" layer="51"/>
 <rectangle x1="13.589" y1="-5.461" x2="14.351" y2="-4.699" layer="21"/>
 </package>
+<package name="2X05" urn="urn:adsk.eagle:footprint:22358/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-6.35" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-1.905" x2="-6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.905" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-6.35" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.35" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
+<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
+<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
+</package>
+<package name="2X05/90" urn="urn:adsk.eagle:footprint:22359/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-6.35" y1="-1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-6.35" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.635" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="6.985" x2="-5.08" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="6.985" x2="5.08" y2="1.27" width="0.762" layer="21"/>
+<pad name="2" x="-5.08" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="4" x="-2.54" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="6" x="0" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="8" x="2.54" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="10" x="5.08" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="1" x="-5.08" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="3" x="-2.54" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="5" x="0" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="7" x="2.54" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="9" x="5.08" y="-6.35" drill="1.016" shape="octagon"/>
+<text x="-6.985" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="8.255" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-5.461" y1="0.635" x2="-4.699" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="4.699" y1="0.635" x2="5.461" y2="1.143" layer="21"/>
+<rectangle x1="-5.461" y1="-2.921" x2="-4.699" y2="-1.905" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-5.461" y1="-5.461" x2="-4.699" y2="-4.699" layer="21"/>
+<rectangle x1="-5.461" y1="-4.699" x2="-4.699" y2="-2.921" layer="51"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-2.921" layer="51"/>
+<rectangle x1="-2.921" y1="-5.461" x2="-2.159" y2="-4.699" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-5.461" x2="0.381" y2="-4.699" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-2.921" layer="51"/>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-2.921" layer="51"/>
+<rectangle x1="2.159" y1="-5.461" x2="2.921" y2="-4.699" layer="21"/>
+<rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
+<rectangle x1="4.699" y1="-5.461" x2="5.461" y2="-4.699" layer="21"/>
+<rectangle x1="4.699" y1="-4.699" x2="5.461" y2="-2.921" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X12" urn="urn:adsk.eagle:package:22420/2" type="model" library_version="4">
@@ -24291,6 +24408,18 @@ Source: www.kingbright.com</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X12/90"/>
+</packageinstances>
+</package3d>
+<package3d name="2X05" urn="urn:adsk.eagle:package:22470/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X05"/>
+</packageinstances>
+</package3d>
+<package3d name="2X05/90" urn="urn:adsk.eagle:package:22471/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X05/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -24326,6 +24455,24 @@ Source: www.kingbright.com</description>
 <pin name="22" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="23" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="24" x="5.08" y="-15.24" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="PINH2X5" urn="urn:adsk.eagle:symbol:22357/1" library_version="4">
+<wire x1="-6.35" y1="-7.62" x2="8.89" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="-7.62" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="9" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -24400,6 +24547,58 @@ Source: www.kingbright.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22422/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-2X5" urn="urn:adsk.eagle:component:22531/4" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINH2X5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2X05">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22470/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="35" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="2X05/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22471/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -24689,7 +24888,6 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
 <part name="J11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-3" device="" package3d_urn="urn:adsk.eagle:package:27602903/2"/>
@@ -24724,6 +24922,7 @@ Source: www.kingbright.com</description>
 <part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BMX160" device="" package3d_urn="urn:adsk.eagle:package:28675205/1"/>
 <part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TSV991AILT" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
 <part name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TSV991AILT" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -25527,10 +25726,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <text x="228.6" y="109.22" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="228.6" y="106.68" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&gt;&gt;</text>
 <text x="-91.44" y="162.56" size="1.778" layer="97">Optional UART bus debug header (standard pitch)</text>
-<text x="60.96" y="144.78" size="1.778" layer="97">NC</text>
+<text x="86.36" y="142.24" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
-<text x="30.48" y="132.08" size="1.778" layer="97">Z- SUN SENSE BOARD CONNECTOR</text>
-<text x="114.3" y="137.16" size="1.778" layer="97">Z+ SUN SENSE BOARD CONNECTOR</text>
+<text x="83.82" y="134.62" size="1.778" layer="97" rot="MR0">Z- SUN SENSE BOARD CONNECTOR</text>
+<text x="165.1" y="142.24" size="1.778" layer="97">Z+ SUN SENSE BOARD CONNECTOR</text>
 <text x="12.7" y="187.96" size="1.778" layer="97">PWM_OUT</text>
 <text x="12.7" y="180.34" size="1.778" layer="97">PWM_OUT</text>
 <text x="93.98" y="182.88" size="1.778" layer="97">PWM_OUT</text>
@@ -25608,15 +25807,15 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="SUPPLY12" gate="GND" x="205.74" y="180.34" smashed="yes">
 <attribute name="VALUE" x="203.835" y="177.165" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="A" x="147.32" y="152.4" smashed="yes">
-<attribute name="NAME" x="140.97" y="163.195" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="142.24" size="1.778" layer="96"/>
+<instance part="JP4" gate="A" x="198.12" y="157.48" smashed="yes">
+<attribute name="NAME" x="191.77" y="168.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.77" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="132.08" y="165.1" smashed="yes">
-<attribute name="VALUE" x="134.62" y="167.64" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V1" gate="G$1" x="182.88" y="170.18" smashed="yes">
+<attribute name="VALUE" x="185.42" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY41" gate="GND" x="132.08" y="144.78" smashed="yes">
-<attribute name="VALUE" x="130.175" y="141.605" size="1.778" layer="96"/>
+<instance part="SUPPLY41" gate="GND" x="182.88" y="149.86" smashed="yes">
+<attribute name="VALUE" x="180.975" y="146.685" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY43" gate="GND" x="215.9" y="127" smashed="yes" rot="R180">
 <attribute name="VALUE" x="217.805" y="130.175" size="1.778" layer="96" rot="R180"/>
@@ -25632,9 +25831,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="SUPPLY44" gate="GND" x="213.36" y="96.52" smashed="yes" rot="R270">
 <attribute name="VALUE" x="210.185" y="98.425" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R45" gate="G$1" x="80.264" y="144.78" smashed="yes">
-<attribute name="NAME" x="75.946" y="141.732" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.692" y="146.558" size="1.778" layer="96"/>
+<instance part="R45" gate="G$1" x="105.664" y="142.24" smashed="yes" rot="MR180">
+<attribute name="NAME" x="101.346" y="145.288" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="101.092" y="140.462" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="A1" gate="G$1" x="55.88" y="81.28" smashed="yes">
 <attribute name="NAME" x="50.8" y="106.68" size="1.27" layer="95"/>
@@ -25668,16 +25867,12 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="P+7" gate="1" x="83.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="86.36" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J3" gate="G$1" x="48.26" y="149.86" smashed="yes">
-<attribute name="NAME" x="43.18" y="167.64" size="1.27" layer="95"/>
-<attribute name="VALUE" x="43.18" y="165.1" size="1.27" layer="96"/>
-</instance>
 <instance part="J11" gate="G$1" x="-99.06" y="129.54" smashed="yes">
 <attribute name="NAME" x="-104.14" y="147.32" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-104.14" y="144.78" size="1.27" layer="96"/>
 </instance>
-<instance part="SUPPLY9" gate="GND" x="91.44" y="142.24" smashed="yes">
-<attribute name="VALUE" x="89.535" y="139.065" size="1.778" layer="96"/>
+<instance part="SUPPLY9" gate="GND" x="114.3" y="139.7" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="116.205" y="136.525" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="J7" gate="G$1" x="251.46" y="185.42" smashed="yes">
 <attribute name="NAME" x="248.92" y="195.58" size="1.27" layer="95"/>
@@ -25711,15 +25906,19 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <attribute name="NAME" x="54.61" y="203.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.61" y="167.64" size="1.778" layer="96"/>
 </instance>
+<instance part="JP1" gate="A" x="58.42" y="144.78" smashed="yes">
+<attribute name="NAME" x="52.07" y="153.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="134.62" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="UCB0_SPI_CLK" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="38.1" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="17.78" y="149.86" size="1.778" layer="95"/>
+<label x="50.8" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="33.02" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
@@ -25728,20 +25927,20 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="5"/>
-<wire x1="144.78" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
-<label x="119.38" y="149.86" size="1.778" layer="95"/>
+<wire x1="195.58" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
+<label x="170.18" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UCB0_SPI_MISO" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="2"/>
-<wire x1="144.78" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
-<label x="119.38" y="157.48" size="1.778" layer="95"/>
+<wire x1="195.58" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
+<label x="170.18" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
-<label x="17.78" y="160.02" size="1.778" layer="95"/>
+<label x="50.8" y="149.86" size="1.778" layer="95" rot="MR0"/>
+<wire x1="33.02" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
@@ -25752,13 +25951,13 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="UCB0_SPI_MOSI" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
-<wire x1="144.78" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
-<label x="119.38" y="154.94" size="1.778" layer="95"/>
+<wire x1="195.58" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
+<label x="170.18" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="38.1" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="17.78" y="154.94" size="1.778" layer="95"/>
+<label x="50.8" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<wire x1="33.02" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="3"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
@@ -25768,37 +25967,37 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="!CS!_SUN_X+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
-<label x="60.96" y="160.02" size="1.778" layer="95"/>
+<label x="86.36" y="149.86" size="1.778" layer="95" rot="MR0"/>
+<wire x1="93.98" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="!CS!_SUN_X-" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="38.1" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
-<label x="22.86" y="144.78" size="1.778" layer="95"/>
+<label x="50.8" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="55.88" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Y-" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="38.1" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
-<label x="22.86" y="139.7" size="1.778" layer="95"/>
+<label x="50.8" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<wire x1="35.56" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Z-" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="58.42" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<label x="60.96" y="149.86" size="1.778" layer="95"/>
+<label x="86.36" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="93.98" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Y+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="60.96" y="154.94" size="1.778" layer="95"/>
+<label x="86.36" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="63.5" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG_X_RIN" class="0">
@@ -25973,9 +26172,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="132.08" y1="162.56" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="167.64" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
-<wire x1="132.08" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="165.1" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="3V3"/>
@@ -26011,7 +26210,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="6"/>
-<wire x1="144.78" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -26051,8 +26250,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </segment>
 <segment>
 <pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="85.344" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<wire x1="110.744" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="GND"/>
@@ -26183,10 +26382,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="!CS!_SUN_Z+" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="4"/>
-<wire x1="144.78" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<label x="119.38" y="152.4" size="1.778" layer="95"/>
-<wire x1="144.78" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<label x="119.38" y="152.4" size="1.778" layer="95"/>
+<label x="170.18" y="157.48" size="1.778" layer="95"/>
+<wire x1="195.58" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="170.18" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -26334,9 +26532,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="J11" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="58.42" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<label x="60.96" y="139.7" size="1.778" layer="95"/>
+<label x="99.06" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<wire x1="99.06" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="MSP430_ACTIVE" class="0">
@@ -26349,9 +26547,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="58.42" y1="144.78" x2="75.184" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="63.5" y1="142.24" x2="100.584" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RW_Z_LOCK" class="0">

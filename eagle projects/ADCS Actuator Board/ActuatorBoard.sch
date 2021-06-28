@@ -18094,16 +18094,6 @@ Reverse (PWM mode B)</text>
 <label x="68.58" y="50.8" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="C69" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="U9" gate="A" pin="!SHDN"/>
-<wire x1="149.86" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
-<junction x="139.7" y="40.64"/>
-<wire x1="149.86" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="BUSY"/>
@@ -18152,6 +18142,16 @@ Reverse (PWM mode B)</text>
 <wire x1="182.88" y1="144.78" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="!SHDN"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C69" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<junction x="139.7" y="40.64"/>
 </segment>
 </net>
 </nets>
@@ -21153,16 +21153,6 @@ select jumper</text>
 <label x="104.14" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="C76" gate="G$1" pin="1"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<pinref part="U14" gate="A" pin="!SHDN"/>
-<wire x1="185.42" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
-<junction x="175.26" y="152.4"/>
-<wire x1="185.42" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="BUSY"/>
@@ -21174,16 +21164,6 @@ select jumper</text>
 <segment>
 <pinref part="U14" gate="A" pin="CH3"/>
 <wire x1="109.22" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<pinref part="C90" gate="G$1" pin="1"/>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="U20" gate="A" pin="!SHDN"/>
-<wire x1="185.42" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<junction x="175.26" y="88.9"/>
-<wire x1="185.42" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -21234,16 +21214,65 @@ select jumper</text>
 <label x="104.14" y="101.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U14" gate="A" pin="!SHDN"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C76" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
+<junction x="175.26" y="152.4"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U20" gate="A" pin="!SHDN"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C90" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<junction x="175.26" y="88.9"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,2,45.9571,179.296,J1,,,,,"/>
-<approved hash="113,2,161.248,129.766,J2,,,,,"/>
-<approved hash="113,2,161.248,99.2861,J3,,,,,"/>
-<approved hash="113,5,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="104,1,194.31,180.34,U8,VCC,+5V,,,"/>
+<approved hash="104,1,194.31,160.02,U8,VSS,GND,,,"/>
+<approved hash="104,1,194.31,129.54,U12,VCC,+5V,,,"/>
+<approved hash="104,1,194.31,109.22,U12,VSS,GND,,,"/>
+<approved hash="104,1,196.85,73.66,U19,VCC,+5V,,,"/>
+<approved hash="104,1,196.85,53.34,U19,VSS,GND,,,"/>
+<approved hash="104,2,73.66,60.96,U9,VCC+_2,+3V3,,,"/>
+<approved hash="104,2,73.66,63.5,U9,VCC+,+3V3,,,"/>
+<approved hash="104,6,109.22,172.72,U14,VCC+_2,+3V3,,,"/>
+<approved hash="104,6,109.22,175.26,U14,VCC+,+3V3,,,"/>
+<approved hash="104,6,109.22,109.22,U20,VCC+_2,+3V3,,,"/>
+<approved hash="104,6,109.22,111.76,U20,VCC+,+3V3,,,"/>
+<approved hash="106,2,73.66,48.26,N$26,,,,,"/>
+<approved hash="106,6,109.22,160.02,N$46,,,,,"/>
+<approved hash="106,6,109.22,96.52,N$60,,,,,"/>
+<approved hash="206,2,129.54,53.34,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,6,165.1,165.1,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,6,165.1,101.6,UCB0_SPI_MISO,,,,,"/>
+<approved hash="111,5,50.8,68.58,N$51,,,,,"/>
+<approved hash="113,2,33.7343,146.05,LED1,,,,,"/>
+<approved hash="113,2,56.5943,146.05,LED2,,,,,"/>
+<approved hash="113,2,43.4171,189.456,J1,,,,,"/>
 <approved hash="113,2,139.596,107.846,FRAME7,,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME8,,,,,"/>
+<approved hash="113,6,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="113,5,139.596,107.846,FRAME9,,,,,"/>
+<approved hash="113,5,25.1629,153.444,J3,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,3,25.1629,153.444,J6,,,,,"/>
+<approved hash="113,4,139.596,107.846,FRAME6,,,,,"/>
+<approved hash="113,4,25.1629,153.444,J12,,,,,"/>
+<approved hash="113,1,128.755,162.281,JP2,,,,,"/>
+<approved hash="113,1,128.755,111.481,JP3,,,,,"/>
+<approved hash="113,1,131.295,55.6006,JP5,,,,,"/>
+<approved hash="113,2,166.328,134.846,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
