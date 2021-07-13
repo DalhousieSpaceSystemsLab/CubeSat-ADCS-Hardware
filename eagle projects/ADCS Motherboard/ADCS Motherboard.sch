@@ -13469,7 +13469,7 @@ MOTION CO-PROCESSOR</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMV16XN" urn="urn:adsk.eagle:component:24628517/2" prefix="Q" library_version="57">
+<deviceset name="BSR802NL6327HTSA1" urn="urn:adsk.eagle:component:29840217/1" prefix="Q" library_version="147">
 <gates>
 <gate name="G$1" symbol="N-MOSFET-GDS-D" x="-2.54" y="0"/>
 </gates>
@@ -24775,7 +24775,7 @@ Source: www.kingbright.com</description>
 <part name="TP2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PMV16XN" device="" package3d_urn="urn:adsk.eagle:package:24628515/1"/>
+<part name="Q1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BSR802NL6327HTSA1" device="" package3d_urn="urn:adsk.eagle:package:24628515/1"/>
 <part name="Q3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="IRLML2246TRPBF" device="" package3d_urn="urn:adsk.eagle:package:24628516/1"/>
 <part name="Q2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="IRLML6246TRPBF" device="" package3d_urn="urn:adsk.eagle:package:24628516/1"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -25077,8 +25077,8 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="250.825" y="144.145" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="Q1" gate="G$1" x="241.3" y="162.56" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="232.41" y="161.29" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="232.41" y="163.83" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="245.11" y="166.37" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="245.11" y="168.91" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -25336,20 +25336,21 @@ Source: www.kingbright.com</description>
 <pinref part="S1" gate="1" pin="S"/>
 <wire x1="218.44" y1="170.18" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="170.18" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
 <junction x="218.44" y="170.18"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="160.02" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 <junction x="218.44" y="160.02"/>
 <wire x1="218.44" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
-<label x="248.92" y="170.18" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<label x="248.92" y="175.26" size="1.778" layer="95" rot="MR180" xref="yes"/>
 <pinref part="S1" gate="1" pin="S1"/>
 <wire x1="208.28" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
 <junction x="208.28" y="160.02"/>
 <junction x="210.82" y="160.02"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <junction x="238.76" y="170.18"/>
+<wire x1="238.76" y1="170.18" x2="238.76" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P5.2/XT2IN1" class="0">
