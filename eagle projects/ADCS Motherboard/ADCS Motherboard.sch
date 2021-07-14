@@ -25438,6 +25438,7 @@ Source: www.kingbright.com</description>
 <part name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TSV991AILT" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 <part name="U5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="DMC4050SSDQ-13" device=""/>
+<part name="SUPPLY57" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28400,6 +28401,9 @@ Set to GND is I2C mode</text>
 <attribute name="VALUE" x="142.24" y="86.36" size="1.2" layer="96" font="vector" ratio="10"/>
 <attribute name="NAME" x="142.24" y="88.9" size="1.2" layer="95" font="vector" ratio="10"/>
 </instance>
+<instance part="SUPPLY57" gate="GND" x="7.62" y="58.42" smashed="yes">
+<attribute name="VALUE" x="5.715" y="55.245" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -28615,6 +28619,24 @@ Set to GND is I2C mode</text>
 <segment>
 <pinref part="SUPPLY73" gate="GND" pin="GND"/>
 <pinref part="C33" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY57" gate="GND" pin="GND"/>
+<wire x1="7.62" y1="60.96" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<wire x1="7.62" y1="63.5" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="73.66" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="83.82" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<wire x1="20.32" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<junction x="7.62" y="83.82"/>
+<pinref part="H3" gate="G$1" pin="MOUNT"/>
+<wire x1="20.32" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
+<junction x="7.62" y="73.66"/>
+<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<wire x1="20.32" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<junction x="7.62" y="63.5"/>
 </segment>
 </net>
 <net name="+5V" class="0">
