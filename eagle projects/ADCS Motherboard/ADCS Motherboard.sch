@@ -27150,15 +27150,15 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <instance part="SUPPLY53" gate="GND" x="104.14" y="195.58" smashed="yes">
 <attribute name="VALUE" x="102.235" y="192.405" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY54" gate="GND" x="48.26" y="162.56" smashed="yes">
-<attribute name="VALUE" x="46.355" y="159.385" size="1.778" layer="96"/>
+<instance part="SUPPLY54" gate="GND" x="50.8" y="160.02" smashed="yes">
+<attribute name="VALUE" x="48.895" y="156.845" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V24" gate="G$1" x="27.94" y="203.2" smashed="yes">
 <attribute name="VALUE" x="30.48" y="205.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R9" gate="G$1" x="27.94" y="195.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.59" y="197.0786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.59" y="192.278" size="1.778" layer="96"/>
+<attribute name="NAME" x="31.75" y="197.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="192.278" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="G$1" x="27.94" y="180.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.464" y="183.261" size="1.778" layer="95"/>
@@ -27475,9 +27475,9 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <attribute name="NAME" x="226.06" y="102.87" size="1.27" layer="95"/>
 <attribute name="VALUE" x="226.06" y="100.33" size="1.27" layer="96"/>
 </instance>
-<instance part="U5" gate="G$1" x="63.5" y="167.64" smashed="yes">
-<attribute name="VALUE" x="57.15" y="180.34" size="1.778" layer="96"/>
-<attribute name="NAME" x="57.15" y="182.88" size="1.778" layer="95"/>
+<instance part="U5" gate="G$1" x="63.5" y="170.18" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="57.15" y="182.88" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="57.15" y="185.42" size="1.778" layer="95" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -27712,9 +27712,9 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <wire x1="220.98" y1="86.36" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="S2"/>
+<pinref part="U5" gate="G$1" pin="S1"/>
+<wire x1="55.88" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY54" gate="GND" pin="GND"/>
-<wire x1="55.88" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -27756,21 +27756,18 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 </net>
 <net name="HMC1053_RESET" class="0">
 <segment>
-<wire x1="43.18" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="170.18" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <junction x="38.1" y="167.64"/>
 <wire x1="38.1" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
 <label x="33.02" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<pinref part="U5" gate="G$1" pin="G2"/>
-<wire x1="55.88" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
-<junction x="43.18" y="167.64"/>
-<wire x1="43.18" y1="167.64" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="G1"/>
-<wire x1="43.18" y1="170.18" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="157.48" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="G2"/>
+<wire x1="55.88" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="177.8" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
+<junction x="55.88" y="167.64"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -27780,10 +27777,10 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <wire x1="27.94" y1="185.42" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="187.96" x2="27.94" y2="190.5" width="0.1524" layer="91"/>
 <junction x="27.94" y="187.96"/>
-<wire x1="53.34" y1="187.96" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="S1"/>
-<wire x1="55.88" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="175.26" x2="53.34" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="S2"/>
+<wire x1="48.26" y1="187.96" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="172.72" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B_MEAS_Z" class="0">
@@ -28096,15 +28093,11 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <wire x1="86.36" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="D1_2"/>
-<wire x1="76.2" y1="170.18" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="170.18" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="167.64" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="D2_2"/>
+<wire x1="76.2" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="177.8" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="167.64" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
 <junction x="86.36" y="167.64"/>
-<wire x1="81.28" y1="167.64" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
-<junction x="81.28" y="167.64"/>
-<pinref part="U5" gate="G$1" pin="D2_1"/>
-<wire x1="81.28" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -28133,6 +28126,13 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <wire x1="119.38" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="17.78" x2="129.54" y2="16.764" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="D1_2"/>
+<wire x1="76.2" y1="167.64" x2="76.2" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="D2_1"/>
 </segment>
 </net>
 </nets>

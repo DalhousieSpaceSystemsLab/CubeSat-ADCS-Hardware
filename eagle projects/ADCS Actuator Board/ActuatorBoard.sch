@@ -16517,6 +16517,9 @@ Source: www.kingbright.com</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 </parts>
 <sheets>
 <sheet>
@@ -17725,6 +17728,10 @@ Reverse (PWM mode B)</text>
 <instance part="SUPPLY30" gate="GND" x="63.5" y="180.34" smashed="yes">
 <attribute name="VALUE" x="61.595" y="177.165" size="1.778" layer="96"/>
 </instance>
+<instance part="R14" gate="G$1" x="60.96" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="48.4886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="45.974" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17785,6 +17792,11 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="C71" gate="G$1" pin="2"/>
 <pinref part="SUPPLY102" gate="GND" pin="GND"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="48.26" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<junction x="35.56" y="53.34"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -18079,7 +18091,8 @@ Reverse (PWM mode B)</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="CH3"/>
-<wire x1="73.66" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RW_X_LOCK" class="0">
@@ -20905,6 +20918,14 @@ select jumper</text>
 <instance part="+3V4" gate="G$1" x="86.36" y="190.5" smashed="yes">
 <attribute name="VALUE" x="88.9" y="193.04" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R4" gate="G$1" x="96.52" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="90.424" y="97.0026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.424" y="93.472" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="93.98" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="86.36" y="160.5026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.614" y="156.972" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20954,6 +20975,11 @@ select jumper</text>
 <segment>
 <pinref part="C78" gate="G$1" pin="2"/>
 <pinref part="SUPPLY138" gate="GND" pin="GND"/>
+<wire x1="71.12" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
+<junction x="71.12" y="165.1"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="160.02" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="165.1" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
@@ -21003,6 +21029,11 @@ select jumper</text>
 <segment>
 <pinref part="C92" gate="G$1" pin="2"/>
 <pinref part="SUPPLY158" gate="GND" pin="GND"/>
+<wire x1="71.12" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<junction x="71.12" y="101.6"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="101.6" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
@@ -21154,7 +21185,8 @@ select jumper</text>
 <net name="N$46" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="CH3"/>
-<wire x1="109.22" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -21167,7 +21199,8 @@ select jumper</text>
 <net name="N$60" class="0">
 <segment>
 <pinref part="U20" gate="A" pin="CH3"/>
-<wire x1="109.22" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!CS!_CURR_SENSE_RW" class="0">
@@ -21241,9 +21274,6 @@ select jumper</text>
 <approved hash="104,6,109.22,175.26,U14,VCC+,+3V3,,,"/>
 <approved hash="104,6,109.22,109.22,U20,VCC+_2,+3V3,,,"/>
 <approved hash="104,6,109.22,111.76,U20,VCC+,+3V3,,,"/>
-<approved hash="106,2,73.66,48.26,N$26,,,,,"/>
-<approved hash="106,6,109.22,160.02,N$46,,,,,"/>
-<approved hash="106,6,109.22,96.52,N$60,,,,,"/>
 <approved hash="206,2,129.54,53.34,UCB0_SPI_MISO,,,,,"/>
 <approved hash="206,6,165.1,165.1,UCB0_SPI_MISO,,,,,"/>
 <approved hash="206,6,165.1,101.6,UCB0_SPI_MISO,,,,,"/>
