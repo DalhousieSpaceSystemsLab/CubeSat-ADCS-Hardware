@@ -662,7 +662,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/4" library_version="89" library_locally_modified="yes">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/5" library_version="148">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -753,10 +753,8 @@
 <wire x1="1.3462" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="2.4892" x2="-1.3462" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
-<text x="-4.6482" y="1.8034" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-4.6482" y="1.8034" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.9812" y="4.191" size="0.8128" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-2.0066" y="3.175" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="2.0574" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-0.7366" y="2.794" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DBQ16-M" urn="urn:adsk.eagle:footprint:23087503/1" library_version="9" library_locally_modified="yes">
 <smd name="1" x="-2.82575" y="2.2225" dx="1.6637" dy="0.3556" layer="1"/>
@@ -1763,7 +1761,7 @@
 <packageinstance name="SOT23-5P65_210X110L40X22N_LM20"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/5" type="model" library_version="89" library_locally_modified="yes">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/6" type="model" library_version="148">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -2143,7 +2141,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/7" prefix="U" library_version="89" library_locally_modified="yes">
+<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/8" prefix="U" library_version="148">
 <gates>
 <gate name="A" symbol="ADS7841_DBQ_16" x="0" y="0"/>
 </gates>
@@ -2168,7 +2166,7 @@
 <connect gate="A" pin="VREF" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -17748,7 +17746,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="DESIGNER" value="T. Christison"/>
+<attribute name="DESIGNER" value="Thomas Christison"/>
+<attribute name="REV" value="B"/>
+<attribute name="REVIEWER" value="ADCS Electrical"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -18553,7 +18553,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/6"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -18590,10 +18590,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.1M"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SSR_MOUNT_03" device="" package3d_urn="urn:adsk.eagle:package:29580098/1"/>
+<part name="U$1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SSR_MOUNT_03" device="" package3d_urn="urn:adsk.eagle:package:29580098/1" override_package3d_urn="urn:adsk.eagle:package:30064049/2" override_package_urn="urn:adsk.eagle:footprint:29580096/1"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7u"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
@@ -18637,11 +18638,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TSV991AILT" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="262.128" y="7.112" size="2.54" layer="94">A</text>
+<text x="262.128" y="7.112" size="2.54" layer="94">B</text>
 <text x="190.754" y="11.43" size="2.54" layer="94">T. Christison</text>
 </plain>
 <instances>
@@ -18790,6 +18795,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="R4" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="232.1814" y="92.71" size="1.778" layer="95" rot="R90"/>
@@ -18954,6 +18960,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U8" gate="G$1" x="88.9" y="58.42" smashed="yes">
 <attribute name="NAME" x="99.06" y="53.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.06" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="10.16" y="7.62" smashed="yes">
+<attribute name="VALUE" x="8.255" y="4.445" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY14" gate="GND" x="48.26" y="7.62" smashed="yes">
+<attribute name="VALUE" x="46.355" y="4.445" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="88.9" y="7.62" smashed="yes">
+<attribute name="VALUE" x="86.995" y="4.445" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="129.54" y="7.62" smashed="yes">
+<attribute name="VALUE" x="127.635" y="4.445" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19240,6 +19258,30 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 <pinref part="U8" gate="G$1" pin="VSS"/>
 </segment>
+<segment>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<wire x1="48.26" y1="10.16" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<wire x1="48.26" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+<wire x1="88.9" y1="10.16" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="MOUNT"/>
+<wire x1="88.9" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<wire x1="129.54" y1="10.16" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<wire x1="129.54" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -19447,9 +19489,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <approved hash="103,1,215.9,58.42,U4,NC,N$7,,,"/>
 <approved hash="104,1,165.1,127,U2,VCC+_2,+3V3,,,"/>
 <approved hash="104,1,165.1,129.54,U2,VCC+,+3V3,,,"/>
-<approved hash="113,1,41.4655,38.4708,J4,,,,,"/>
-<approved hash="113,1,41.4655,99.4308,J5,,,,,"/>
-<approved hash="113,1,41.4655,157.851,J6,,,,,"/>
+<approved hash="104,1,91.44,190.5,U1,VCC,+3V3,,,"/>
+<approved hash="104,1,91.44,165.1,U1,VSS,GND,,,"/>
+<approved hash="104,1,91.44,129.54,U5,VCC,+3V3,,,"/>
+<approved hash="104,1,91.44,104.14,U5,VSS,GND,,,"/>
+<approved hash="104,1,91.44,71.12,U8,VCC,+3V3,,,"/>
+<approved hash="104,1,91.44,45.72,U8,VSS,GND,,,"/>
 <approved hash="113,1,249.157,124.686,JP3,,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 </errors>
@@ -19474,6 +19519,11 @@ packages will not be understood (or retained) with this version.
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
 will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
