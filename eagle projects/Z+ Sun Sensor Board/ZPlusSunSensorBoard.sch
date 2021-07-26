@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -93,8 +93,12 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="STIFFENER" color="37" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -107,6 +111,11 @@
 <layer number="130" name="130bmp" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
@@ -142,6 +151,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
@@ -150,6 +165,7 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N" xrefpart="/%S.%C%R">
 <libraries>
@@ -1788,7 +1804,7 @@
 <packageinstance name="SC70-5P65_210X110L36X22N_LM20"/>
 </packageinstances>
 </package3d>
-<package3d name="PC104" urn="urn:adsk.eagle:package:26858043/1" type="box" library_version="120">
+<package3d name="PC104" urn="urn:adsk.eagle:package:26858043/2" type="empty" library_version="143" library_locally_modified="yes">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
 <packageinstances>
 <packageinstance name="PC104"/>
@@ -2285,7 +2301,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:26858044/2" prefix="H" library_version="120">
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:26858044/2" locally_modified="yes" prefix="H" library_version="143" library_locally_modified="yes">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-PAD-1" x="0" y="0"/>
@@ -2426,7 +2442,7 @@
 <connect gate="G$1" pin="MOUNT" pad="B3,15"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26858043/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26858043/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -17744,6 +17760,142 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Heating Element" urn="urn:adsk.eagle:library:29300905">
+<packages>
+<package name="ROX02B_VIS" urn="urn:adsk.eagle:footprint:29300999/1" library_version="5" library_locally_modified="yes">
+<pad name="1" x="0" y="0" drill="1.1176" diameter="1.6256" shape="square"/>
+<pad name="2" x="22.7076" y="0" drill="1.1176" diameter="1.6256" rot="R180"/>
+<wire x1="3.3274" y1="-2.8956" x2="19.3802" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="19.3802" y1="-2.8956" x2="19.3802" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="19.3802" y1="2.8956" x2="3.3274" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="3.3274" y1="2.8956" x2="3.3274" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="3.4544" y2="0" width="0.1524" layer="51"/>
+<wire x1="22.7076" y1="0" x2="19.2532" y2="0" width="0.1524" layer="51"/>
+<wire x1="3.4544" y1="-2.7686" x2="19.2532" y2="-2.7686" width="0.1524" layer="51"/>
+<wire x1="19.2532" y1="-2.7686" x2="19.2532" y2="2.7686" width="0.1524" layer="51"/>
+<wire x1="19.2532" y1="2.7686" x2="3.4544" y2="2.7686" width="0.1524" layer="51"/>
+<wire x1="3.4544" y1="2.7686" x2="3.4544" y2="-2.7686" width="0.1524" layer="51"/>
+<text x="8.0772" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="9.6266" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="ROX02B_VIS" urn="urn:adsk.eagle:package:29301001/2" type="model" library_version="5" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="ROX02B_VIS"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RES" urn="urn:adsk.eagle:symbol:29300908/2" locally_modified="yes" library_version="5" library_locally_modified="yes">
+<pin name="1" x="0" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.6162" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.1844" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="-2.6162" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.1844" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="1.27" x2="10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="10.16" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-1.27" x2="8.89" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="6.35" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="8.89" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-1.27" x2="8.89" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RS02B2R000FE70" urn="urn:adsk.eagle:component:29301002/1" locally_modified="yes" prefix="R" library_version="5" library_locally_modified="yes">
+<gates>
+<gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="ROX02B_VIS">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29301001/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RS02B2R000FE70" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" constant="no"/>
+<attribute name="VENDOR" value="Vishay" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="PDUv1" urn="urn:adsk.eagle:library:29653418">
+<packages>
+<package name="2038638103" urn="urn:adsk.eagle:footprint:30104252/2" library_version="14">
+<polygon width="0.0762" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="3.4"/>
+<vertex x="8.4" y="3.4"/>
+<vertex x="8.4" y="0"/>
+</polygon>
+<smd name="P$1" x="3.8" y="1.8" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-0.2" y1="3.6" x2="-0.2" y2="-0.2" width="0.0762" layer="21"/>
+<wire x1="-0.2" y1="-0.2" x2="8.6" y2="-0.2" width="0.0762" layer="21"/>
+<wire x1="8.6" y1="-0.2" x2="8.6" y2="3.6" width="0.0762" layer="21"/>
+<wire x1="8.6" y1="3.6" x2="-0.2" y2="3.6" width="0.0762" layer="21"/>
+<circle x="0" y="3.81" radius="0.0254" width="0.1524" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2038638103" urn="urn:adsk.eagle:package:30104253/3" type="model" library_version="14">
+<packageinstances>
+<packageinstance name="2038638103"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="2038638103" urn="urn:adsk.eagle:symbol:30104251/2" library_version="14">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle" direction="pwr"/>
+<wire x1="0" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2038638103" urn="urn:adsk.eagle:component:30104255/2" prefix="J" uservalue="yes" library_version="14">
+<gates>
+<gate name="G$1" symbol="2038638103" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="2038638103">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30104253/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Thomas Christison"/>
@@ -18582,10 +18734,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:26872615/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="H1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
+<part name="H1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
 <part name="TP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
@@ -18642,12 +18794,19 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R6" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" deviceset="RS02B2R000FE70" device="" package3d_urn="urn:adsk.eagle:package:29301001/2"/>
+<part name="R7" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" deviceset="RS02B2R000FE70" device="" package3d_urn="urn:adsk.eagle:package:29301001/2"/>
+<part name="J1" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/3" value="Power In"/>
+<part name="J2" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/3" value="Power Out"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="262.128" y="7.112" size="2.54" layer="94">B</text>
 <text x="190.754" y="11.43" size="2.54" layer="94">T. Christison</text>
+<text x="182.88" y="190.5" size="1.778" layer="97">Connectors: 2038638103</text>
+<text x="172.72" y="198.12" size="1.778" layer="97">Deployment Parts: Two Wirewound 
+resistors cuts a down string.</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="200.66" y="63.5" smashed="yes">
@@ -18766,8 +18925,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY1" gate="GND" x="236.22" y="134.62" smashed="yes">
 <attribute name="VALUE" x="234.315" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="238.76" y="162.56" smashed="yes">
-<attribute name="VALUE" x="236.855" y="159.385" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="GND" x="243.84" y="154.94" smashed="yes">
+<attribute name="VALUE" x="241.935" y="151.765" size="1.778" layer="96"/>
 </instance>
 <instance part="H1" gate="G$1" x="15.24" y="12.7" smashed="yes">
 <attribute name="NAME" x="18.034" y="13.2842" size="1.778" layer="95"/>
@@ -18785,8 +18944,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="137.414" y="13.2842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.414" y="10.2362" size="1.778" layer="96"/>
 </instance>
-<instance part="TP4" gate="G$1" x="238.76" y="167.64" smashed="yes">
-<attribute name="NAME" x="237.49" y="168.91" size="1.778" layer="95"/>
+<instance part="TP4" gate="G$1" x="243.84" y="160.02" smashed="yes">
+<attribute name="NAME" x="242.57" y="161.29" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -18804,8 +18963,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY3" gate="GND" x="233.68" y="86.36" smashed="yes">
 <attribute name="VALUE" x="231.775" y="83.185" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="185.42" y="170.18" smashed="yes">
-<attribute name="VALUE" x="183.134" y="175.3362" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="190.5" y="162.56" smashed="yes">
+<attribute name="VALUE" x="188.214" y="167.7162" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$2" x="25.4" y="104.14" smashed="yes">
 <attribute name="NAME" x="21.59" y="120.65" size="1.778" layer="95"/>
@@ -18972,6 +19131,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="129.54" y="7.62" smashed="yes">
 <attribute name="VALUE" x="127.635" y="4.445" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="A" x="215.9" y="180.34" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.2838" y="174.8028" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="218.7956" y="187.5028" size="1.778" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="R7" gate="A" x="223.52" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="226.4156" y="187.5028" size="1.778" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="J1" gate="G$1" x="218.44" y="203.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="220.98" y="203.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="220.98" y="200.66" size="1.778" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="236.22" y="187.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.76" y="187.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="238.76" y="185.42" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19478,6 +19652,32 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U8" gate="G$1" pin="IN+"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R6" gate="A" pin="2"/>
+<wire x1="215.9" y1="193.04" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="195.58" x2="218.44" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R7" gate="A" pin="2"/>
+<wire x1="218.44" y1="195.58" x2="223.52" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="195.58" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="198.12" x2="218.44" y2="195.58" width="0.1524" layer="91"/>
+<junction x="218.44" y="195.58"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R6" gate="A" pin="1"/>
+<wire x1="215.9" y1="180.34" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R7" gate="A" pin="1"/>
+<wire x1="215.9" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="177.8" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
+<junction x="223.52" y="177.8"/>
+<wire x1="236.22" y1="182.88" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -19501,6 +19701,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
