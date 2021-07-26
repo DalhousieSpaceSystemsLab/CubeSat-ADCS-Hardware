@@ -1,0 +1,51 @@
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\copper_top.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\profile.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\silkscreen_bottom.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D104
+D11   --> D105
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\silkscreen_top.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D106
+D11   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\soldermask_bottom.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D108
+D11   --> D109
+D12   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\soldermask_top.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D111
+D11   --> D112
+D12   --> D113
+D13   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\chris\Documents\EAGLE\projects\BMX160\bmx160-breakout_2021-05-15\CAMOutputs\GerberFiles\solderpaste_top.gbr' ----   Sat May 15 15:14:33 2021
+
+D10   --> D115
+-----------------------------------------------------------------

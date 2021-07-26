@@ -25498,6 +25498,7 @@ Source: www.kingbright.com</description>
 <text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="203.2" y="63.5" size="1.778" layer="97">PWM</text>
 <text x="189.992" y="11.43" size="2.54" layer="94">Thomas Christison</text>
+<text x="196.342" y="6.858" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="228.6" y="73.66" smashed="yes">
@@ -26257,6 +26258,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <text x="93.98" y="195.58" size="1.778" layer="97">PWM_OUT</text>
 <text x="73.66" y="198.12" size="1.778" layer="97">NC</text>
 <text x="189.992" y="11.684" size="2.54" layer="94">Thomas Christison</text>
+<text x="196.088" y="6.604" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -27118,6 +27120,7 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="40.64" y="152.4" size="1.778" layer="97">Totem Pole Driver (Complementary mosfet pair)</text>
 <text x="190.5" y="11.43" size="2.54" layer="94">Thomas Christison</text>
+<text x="195.58" y="6.35" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="C18" gate="G$1" x="93.98" y="170.18" smashed="yes" rot="R180">
@@ -28165,6 +28168,7 @@ Set to GND address = 0x68</text>
 <text x="231.14" y="76.2" size="1.778" layer="97">CSB is I2C/SPI mode select pin
 Set to GND is I2C mode</text>
 <text x="190.246" y="11.176" size="2.54" layer="94">Thomas Christison</text>
+<text x="195.834" y="6.858" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="MH1" gate="G$1" x="27.94" y="10.16" smashed="yes" grouprefs="CHASSIS_MOUNTING_HOLES">
