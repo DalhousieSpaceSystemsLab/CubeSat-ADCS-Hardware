@@ -170,7 +170,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/4" library_version="99">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/7" library_version="151" library_locally_modified="yes">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -261,10 +261,9 @@
 <wire x1="1.3462" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="2.4892" x2="-1.3462" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
-<text x="-4.6482" y="1.8034" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-4.6482" y="1.8034" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.9812" y="4.191" size="0.8128" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-2.0066" y="3.175" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-1.397" y1="2.54" x2="-3.429" y2="2.54" width="0.127" layer="21"/>
+<text x="-0.2794" y="1.5748" size="1.27" layer="21" ratio="6" rot="SR90">*</text>
+<text x="-0.7366" y="2.794" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DBQ16-M" urn="urn:adsk.eagle:footprint:23087503/1" library_version="7">
 <smd name="1" x="-2.82575" y="2.2225" dx="1.6637" dy="0.3556" layer="1"/>
@@ -531,15 +530,15 @@
 <hole x="3" y="33" drill="3.4"/>
 <rectangle x1="0" y1="0" x2="36" y2="36" layer="39"/>
 </package>
-<package name="MAG_MOUNT_V3" urn="urn:adsk.eagle:footprint:26139364/1" library_version="144">
+<package name="MAG_MOUNT_V3" urn="urn:adsk.eagle:footprint:26139364/1" locally_modified="yes" library_version="151" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
 <wire x1="5.1" y1="0" x2="5.1" y2="23" width="0.127" layer="21"/>
 <wire x1="5.1" y1="23" x2="0" y2="23" width="0.127" layer="21"/>
 <wire x1="0" y1="23" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="55" y1="0" x2="60.1" y2="0" width="0.127" layer="21"/>
-<wire x1="60.1" y1="0" x2="60.1" y2="23" width="0.127" layer="121"/>
+<wire x1="60.1" y1="0" x2="60.1" y2="23" width="0.127" layer="21"/>
 <wire x1="60.1" y1="23" x2="55" y2="23" width="0.127" layer="21"/>
-<wire x1="55" y1="23" x2="55" y2="0" width="0.127" layer="121"/>
+<wire x1="55" y1="23" x2="55" y2="0" width="0.127" layer="21"/>
 <wire x1="5.1" y1="10.63" x2="55" y2="10.63" width="0.127" layer="150" style="longdash"/>
 <wire x1="55" y1="19.42" x2="5.1" y2="19.42" width="0.127" layer="150" style="longdash"/>
 <rectangle x1="0" y1="0" x2="5.1" y2="23" layer="39"/>
@@ -2828,7 +2827,7 @@
 <packageinstance name="MTGP700H400"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/5" type="model" library_version="99">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/8" type="model" library_version="151" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -2861,7 +2860,7 @@
 <packageinstance name="RWA_NOPINS"/>
 </packageinstances>
 </package3d>
-<package3d name="MAG_MOUNT_V3" urn="urn:adsk.eagle:package:26139365/2" type="model" library_version="144">
+<package3d name="MAG_MOUNT_V3" urn="urn:adsk.eagle:package:26139365/2" type="model" library_version="151" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MAG_MOUNT_V3"/>
 </packageinstances>
@@ -3121,22 +3120,22 @@
 <text x="-10.16" y="12.7" size="1.2" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <text x="-10.16" y="15.24" size="1.2" layer="95" font="vector" ratio="10">&gt;NAME</text>
 </symbol>
-<symbol name="OP_AMP" urn="urn:adsk.eagle:symbol:24411778/4" library_version="127">
+<symbol name="OP_AMP" urn="urn:adsk.eagle:symbol:24411778/5" library_version="151" library_locally_modified="yes">
 <description>General Purpose 5-pin RTR op-amp symbol</description>
-<wire x1="10.16" y1="0" x2="3.81" y2="6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="6.35" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-6.35" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="6.35" x2="3.81" y2="10.16" width="0.254" layer="94"/>
-<pin name="IN+" x="-5.08" y="5.08" length="short" direction="in"/>
-<pin name="IN-" x="-5.08" y="-5.08" length="short" direction="in"/>
-<pin name="OUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
-<pin name="VCC" x="3.81" y="10.16" length="point" direction="pwr"/>
-<pin name="VSS" x="3.81" y="-10.16" length="point" direction="pwr"/>
-<text x="8.89" y="6.35" size="1.27" layer="95">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
+<pin name="IN+" x="-7.62" y="5.08" length="middle" direction="in"/>
+<pin name="IN-" x="-7.62" y="-5.08" length="middle" direction="in"/>
+<pin name="OUT" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="2.54" y="12.7" length="point" direction="pwr"/>
+<pin name="VSS" x="2.54" y="-12.7" length="point" direction="pwr"/>
+<text x="7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TE-1734829-3" urn="urn:adsk.eagle:symbol:27602896/1" library_version="144">
 <pin name="5V" x="-5.08" y="2.54" length="middle"/>
@@ -3191,7 +3190,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/7" prefix="U" library_version="99">
+<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/10" prefix="U" library_version="151" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="ADS7841_DBQ_16" x="0" y="0"/>
 </gates>
@@ -3216,7 +3215,7 @@
 <connect gate="A" pin="VREF" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3378,7 +3377,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCTR-M002_MAGNETORQUER" urn="urn:adsk.eagle:component:24418984/6" prefix="M" library_version="144">
+<deviceset name="NCTR-M002_MAGNETORQUER" urn="urn:adsk.eagle:component:24418984/6" prefix="M" library_version="151" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="NCTR-M002_NOPINS" x="0" y="0"/>
 </gates>
@@ -3506,7 +3505,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TSV991AILT" urn="urn:adsk.eagle:component:24411779/7" prefix="U" library_version="144">
+<deviceset name="TSV991AILT" urn="urn:adsk.eagle:component:24411779/8" prefix="U" library_version="151" library_locally_modified="yes">
 <description>TVS991 General Purpose Op-Amp</description>
 <gates>
 <gate name="G$1" symbol="OP_AMP" x="0" y="0"/>
@@ -13966,7 +13965,9 @@ Source: www.kingbright.com</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="DESIGNER" value="J. Smith, T. Christison"/>
+<attribute name="DESIGNER" value="Thomas Christison, James Smith"/>
+<attribute name="REV#" value="B"/>
+<attribute name="REVIEWER" value="ADCS Electrical"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -13975,7 +13976,6 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <groups>
-<schematic_group name="BD621F-EF_LOGIC_TABLE"/>
 <schematic_group name="POWER"/>
 <schematic_group name="INDICATOR_LEDS_POWER"/>
 <schematic_group name="BOARD_MOUNTING_HOLES"/>
@@ -16118,20 +16118,26 @@ Source: www.kingbright.com</description>
 <part name="FRAME7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="FRAME8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="FRAME4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device=""/>
+<part name="FRAME4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
+</part>
 <part name="TP18" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP20" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="FRAME9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -16207,6 +16213,7 @@ Source: www.kingbright.com</description>
 <part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -16282,6 +16289,7 @@ Source: www.kingbright.com</description>
 <part name="FRAME6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
+<attribute name="REVIEWER" value=""/>
 </part>
 <part name="P+41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -16423,7 +16431,7 @@ Source: www.kingbright.com</description>
 <part name="TP52" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP62" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP63" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
-<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/8"/>
 <part name="SUPPLY94" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY95" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -16445,7 +16453,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY102" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
-<part name="U14" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<part name="U14" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/8"/>
 <part name="SUPPLY130" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY131" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -16468,7 +16476,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY138" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="SUPPLY139" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U20" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
+<part name="U20" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/8"/>
 <part name="SUPPLY150" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY151" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -16524,99 +16532,18 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="223.52" y="101.6" size="1.778" layer="97">Only X and Y magnetorquer mounted
 physically to board</text>
 <text x="190.5" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 <text x="116.84" y="154.94" size="1.778" layer="97">MQTR-Connector</text>
 <text x="116.84" y="104.14" size="1.778" layer="97">MQTR-Connector</text>
 <text x="119.38" y="48.26" size="1.778" layer="97">MQTR-Connector</text>
-<text x="63.5" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">FIN
-
-0
-1
-0
-1
-PWM
-0
-1
-PWM</text>
-<text x="53.34" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">RIN
-
-0
-0
-1
-1
-0
-PWM
-PWM
-1</text>
-<text x="73.66" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">VREF
-
-X
-VCC
-VCC
-X
-VCC
-VCC
-VCC
-VCC</text>
-<text x="83.82" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">OUT1
-
-Hi-Z
-1
-0
-0
-1
-!PWM
-!PWM
-0</text>
-<text x="93.98" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">OUT2
-
-Hi-Z
-0
-1
-0
-!PWM
-1
-0
-!PWM</text>
-<text x="104.14" y="7.62" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">Operation Mode
-
-Stand-by
-Forward
-Reverse
-Brake
-Forward (PWM mode A)
-Reverse (PWM mode A)
-Forward (PWM mode B)
-Reverse (PWM mode B)</text>
-<wire x1="60.96" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="71.12" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="81.28" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="91.44" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="101.6" y1="35.56" x2="134.62" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="134.62" y1="35.56" x2="134.62" y2="30.48" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="134.62" y1="30.48" x2="134.62" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="134.62" y1="5.08" x2="101.6" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="101.6" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="91.44" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="81.28" y1="5.08" x2="71.12" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="71.12" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="60.96" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="50.8" y1="5.08" x2="50.8" y2="30.48" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="50.8" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="60.96" y1="35.56" x2="60.96" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="71.12" y1="35.56" x2="71.12" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="81.28" y1="35.56" x2="81.28" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="91.44" y1="35.56" x2="91.44" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="5.08" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
-<wire x1="50.8" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="97" style="shortdash" grouprefs="BD621F-EF_LOGIC_TABLE"/>
 <text x="213.36" y="193.04" size="1.778" layer="91">Note! Check that output gain is tuned for 0 to 3.3V</text>
 <text x="144.78" y="198.12" size="1.778" layer="91">Amplifier biased to 3.3V/2</text>
 <text x="99.06" y="193.04" size="1.778" layer="91">Use low tolerance resistors &lt;1% to ensure linear amplifier output</text>
 <text x="144.78" y="152.4" size="1.778" layer="91">DNP = do not populate</text>
+<text x="195.834" y="6.35" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="MX" gate="G$1" x="236.22" y="170.18" smashed="yes">
@@ -16634,6 +16561,7 @@ Reverse (PWM mode B)</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="C1" gate="G$1" x="101.6" y="170.18" smashed="yes">
 <attribute name="NAME" x="105.664" y="170.561" size="1.778" layer="95"/>
@@ -16954,6 +16882,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="U8" gate="G$1" pin="VSS"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="194.31" y1="160.02" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -16967,6 +16896,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="U12" gate="G$1" pin="VSS"/>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
+<wire x1="194.31" y1="109.22" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C46" gate="G$1" pin="2"/>
@@ -16980,6 +16910,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="U19" gate="G$1" pin="VSS"/>
 <pinref part="SUPPLY91" gate="GND" pin="GND"/>
+<wire x1="196.85" y1="53.34" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -17050,7 +16981,7 @@ Reverse (PWM mode B)</text>
 <pinref part="TP51" gate="G$1" pin="TP"/>
 <junction x="218.44" y="63.5"/>
 <pinref part="U19" gate="G$1" pin="OUT"/>
-<wire x1="205.74" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R85" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="48.26" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
@@ -17201,7 +17132,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="U8" gate="G$1" pin="VCC"/>
-<wire x1="194.31" y1="180.34" x2="194.31" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="182.88" x2="194.31" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="182.88" x2="194.31" y2="182.88" width="0.1524" layer="91"/>
 <junction x="194.31" y="182.88"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
@@ -17210,7 +17141,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="C46" gate="G$1" pin="1"/>
 <pinref part="U12" gate="G$1" pin="VCC"/>
-<wire x1="194.31" y1="129.54" x2="194.31" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="132.08" x2="194.31" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="132.08" x2="194.31" y2="132.08" width="0.1524" layer="91"/>
 <junction x="194.31" y="132.08"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
@@ -17219,7 +17150,7 @@ Reverse (PWM mode B)</text>
 <segment>
 <pinref part="C52" gate="G$1" pin="1"/>
 <pinref part="U19" gate="G$1" pin="VCC"/>
-<wire x1="196.85" y1="73.66" x2="196.85" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="76.2" x2="196.85" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="76.2" x2="196.85" y2="76.2" width="0.1524" layer="91"/>
 <junction x="196.85" y="76.2"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
@@ -17271,7 +17202,6 @@ Reverse (PWM mode B)</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="IN-"/>
-<wire x1="185.42" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
@@ -17281,7 +17211,6 @@ Reverse (PWM mode B)</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="IN+"/>
-<wire x1="182.88" y1="175.26" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
 <junction x="182.88" y="175.26"/>
 <wire x1="182.88" y1="175.26" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -17311,7 +17240,6 @@ Reverse (PWM mode B)</text>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="IN-"/>
-<wire x1="185.42" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
@@ -17321,7 +17249,6 @@ Reverse (PWM mode B)</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="IN+"/>
-<wire x1="182.88" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <junction x="182.88" y="124.46"/>
 <wire x1="182.88" y1="124.46" x2="182.88" y2="127" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
@@ -17351,7 +17278,6 @@ Reverse (PWM mode B)</text>
 <net name="N$48" class="0">
 <segment>
 <pinref part="U19" gate="G$1" pin="IN-"/>
-<wire x1="187.96" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R83" gate="G$1" pin="1"/>
 <pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
@@ -17361,7 +17287,6 @@ Reverse (PWM mode B)</text>
 <net name="N$53" class="0">
 <segment>
 <pinref part="U19" gate="G$1" pin="IN+"/>
-<wire x1="185.42" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <junction x="185.42" y="68.58"/>
 <wire x1="185.42" y1="68.58" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R81" gate="G$1" pin="1"/>
@@ -17500,7 +17425,7 @@ Reverse (PWM mode B)</text>
 <pinref part="TP10" gate="G$1" pin="TP"/>
 <junction x="215.9" y="170.18"/>
 <pinref part="U8" gate="G$1" pin="OUT"/>
-<wire x1="203.2" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="154.94" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
@@ -17516,7 +17441,7 @@ Reverse (PWM mode B)</text>
 <pinref part="TP30" gate="G$1" pin="TP"/>
 <junction x="215.9" y="119.38"/>
 <pinref part="U12" gate="G$1" pin="OUT"/>
-<wire x1="203.2" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="104.14" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
@@ -17549,8 +17474,9 @@ Reverse (PWM mode B)</text>
 </sheet>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
+<text x="196.596" y="6.858" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="MH5" gate="G$1" x="121.92" y="190.5" smashed="yes" grouprefs="BOARD_MOUNTING_HOLES">
@@ -17589,6 +17515,7 @@ Reverse (PWM mode B)</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="SUPPLY41" gate="GND" x="30.48" y="119.38" smashed="yes" grouprefs="INDICATOR_LEDS_POWER">
 <attribute name="VALUE" x="28.575" y="116.205" size="1.778" layer="96"/>
@@ -18146,7 +18073,7 @@ Reverse (PWM mode B)</text>
 </sheet>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 <text x="119.38" y="129.54" size="1.778" layer="97">NC</text>
 <text x="119.38" y="76.2" size="1.778" layer="97">Device measures frequency of zero-crossings at TACH- level = 1/3*Vcc = 1 V</text>
@@ -18194,6 +18121,8 @@ R_cs = 1.15 V * 22000/ 0.9 = 28.111k
 closest standard res = 27 k
 
 Vcs = 0.9 * 28000/27k (max) = 0.933 V</text>
+<text x="236.22" y="193.04" size="1.778" layer="97">Maxon 351098</text>
+<text x="195.58" y="6.858" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="TP2" gate="G$1" x="213.36" y="185.42" smashed="yes">
@@ -18212,6 +18141,7 @@ Vcs = 0.9 * 28000/27k (max) = 0.933 V</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="J4" gate="G$1" x="243.84" y="170.18" smashed="yes">
 <attribute name="NAME" x="236.22" y="189.23" size="1.27" layer="95" ratio="10"/>
@@ -19020,7 +18950,7 @@ Vcs = 0.9 * 28000/27k (max) = 0.933 V</text>
 </sheet>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 <text x="119.38" y="129.54" size="1.778" layer="97">NC</text>
 <text x="119.38" y="76.2" size="1.778" layer="97">Device measures frequency of zero-crossings at TACH- level = 1/3*Vcc = 1 V</text>
@@ -19031,6 +18961,7 @@ large res to prevent charge buildup
 in orbit.</text>
 <text x="5.08" y="152.4" size="1.778" layer="97">Brake-mode
 select jumper</text>
+<text x="195.58" y="6.858" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="TP49" gate="G$1" x="213.36" y="185.42" smashed="yes">
@@ -19049,6 +18980,7 @@ select jumper</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="J11" gate="G$1" x="243.84" y="170.18" smashed="yes">
 <attribute name="NAME" x="236.22" y="189.23" size="1.27" layer="95" ratio="10"/>
@@ -19858,7 +19790,7 @@ select jumper</text>
 <sheet>
 <plain>
 <text x="81.28" y="200.66" size="1.778" layer="97">Only Z-axis Reaction wheel mounted physically to PCB</text>
-<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">B</text>
 <text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 <text x="119.38" y="129.54" size="1.778" layer="97">NC</text>
 <text x="119.38" y="76.2" size="1.778" layer="97">Device measures frequency of zero-crossings at TACH- level = 1/3*Vcc = 1 V</text>
@@ -19869,6 +19801,8 @@ large res to prevent charge buildup
 in orbit.</text>
 <text x="5.08" y="152.4" size="1.778" layer="97">Brake-mode
 select jumper</text>
+<text x="195.072" y="6.35" size="2.54" layer="94">ADCS Electrical</text>
+<text x="195.072" y="6.35" size="2.54" layer="94">ADCS Electrical</text>
 </plain>
 <instances>
 <instance part="P+47" gate="1" x="66.04" y="198.12" smashed="yes">
@@ -19896,6 +19830,7 @@ select jumper</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="J2" gate="G$1" x="243.84" y="170.18" smashed="yes">
 <attribute name="NAME" x="236.22" y="189.23" size="1.27" layer="95" ratio="10"/>
@@ -20745,6 +20680,9 @@ select jumper</text>
 </sheet>
 <sheet>
 <plain>
+<text x="191.77" y="10.922" size="2.54" layer="94">J. Smith, T.Christison</text>
+<text x="196.596" y="6.604" size="2.54" layer="94">ADCS Electrical</text>
+<text x="261.874" y="6.858" size="2.54" layer="94">B</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20752,7 +20690,8 @@ select jumper</text>
 <attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-<attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
+<attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 <instance part="U14" gate="A" x="137.16" y="165.1" smashed="yes">
 <attribute name="NAME" x="132.4356" y="181.8386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
