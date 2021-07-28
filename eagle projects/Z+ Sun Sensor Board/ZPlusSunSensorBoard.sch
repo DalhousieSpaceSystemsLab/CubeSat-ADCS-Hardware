@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -678,7 +678,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/7" library_version="151" library_locally_modified="yes">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/5" library_version="143" library_locally_modified="yes">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -769,8 +769,7 @@
 <wire x1="1.3462" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="2.4892" x2="-1.3462" y2="2.4892" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.397" y1="2.54" x2="-3.429" y2="2.54" width="0.127" layer="21"/>
-<text x="-0.2794" y="1.5748" size="1.27" layer="21" ratio="6" rot="SR90">*</text>
+<text x="-1.7272" y="2.0574" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-0.7366" y="2.794" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DBQ16-M" urn="urn:adsk.eagle:footprint:23087503/1" library_version="9" library_locally_modified="yes">
@@ -1778,7 +1777,7 @@
 <packageinstance name="SOT23-5P65_210X110L40X22N_LM20"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/8" type="model" library_version="151" library_locally_modified="yes">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/6" type="model" library_version="143" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -1805,7 +1804,7 @@
 <packageinstance name="SC70-5P65_210X110L36X22N_LM20"/>
 </packageinstances>
 </package3d>
-<package3d name="PC104" urn="urn:adsk.eagle:package:26858043/1" type="box" library_version="151" library_locally_modified="yes">
+<package3d name="PC104" urn="urn:adsk.eagle:package:26858043/2" type="empty" library_version="143" library_locally_modified="yes">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
 <packageinstances>
 <packageinstance name="PC104"/>
@@ -2158,7 +2157,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/10" prefix="U" library_version="151" library_locally_modified="yes">
+<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/8" prefix="U" library_version="143" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="ADS7841_DBQ_16" x="0" y="0"/>
 </gates>
@@ -2183,7 +2182,7 @@
 <connect gate="A" pin="VREF" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2302,7 +2301,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:26858044/2" prefix="H" library_version="151" library_locally_modified="yes">
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:26858044/2" locally_modified="yes" prefix="H" library_version="143" library_locally_modified="yes">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-PAD-1" x="0" y="0"/>
@@ -2443,7 +2442,7 @@
 <connect gate="G$1" pin="MOUNT" pad="B3,15"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26858043/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26858043/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -17845,30 +17844,26 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 <library name="PDUv1" urn="urn:adsk.eagle:library:29653418">
 <packages>
-<package name="2038638103" urn="urn:adsk.eagle:footprint:30104252/2" library_version="14">
-<polygon width="0.0762" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="0" y="3.4"/>
-<vertex x="8.4" y="3.4"/>
-<vertex x="8.4" y="0"/>
-</polygon>
-<smd name="P$1" x="3.8" y="1.8" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="-0.2" y1="3.6" x2="-0.2" y2="-0.2" width="0.0762" layer="21"/>
-<wire x1="-0.2" y1="-0.2" x2="8.6" y2="-0.2" width="0.0762" layer="21"/>
-<wire x1="8.6" y1="-0.2" x2="8.6" y2="3.6" width="0.0762" layer="21"/>
-<wire x1="8.6" y1="3.6" x2="-0.2" y2="3.6" width="0.0762" layer="21"/>
-<circle x="0" y="3.81" radius="0.0254" width="0.1524" layer="21"/>
+<package name="2038638103" urn="urn:adsk.eagle:footprint:30104252/4" library_version="16">
+<smd name="P$1" x="3.8" y="1.9" dx="8.4" dy="3.4" layer="1"/>
+<wire x1="-1.27" y1="3.81" x2="8.89" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="3.81" x2="8.89" y2="0" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="0" width="0.1524" layer="21"/>
+<circle x="-1.27" y="1.27" radius="0.5" width="0.1524" layer="21"/>
+<text x="0" y="5.08" size="0.762" layer="25">&gt;Name</text>
+<text x="0" y="3.81" size="0.762" layer="27">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="2038638103" urn="urn:adsk.eagle:package:30104253/3" type="model" library_version="14">
+<package3d name="2038638103" urn="urn:adsk.eagle:package:30104253/5" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="2038638103"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="2038638103" urn="urn:adsk.eagle:symbol:30104251/2" library_version="14">
+<symbol name="2038638103" urn="urn:adsk.eagle:symbol:30104251/2" library_version="16">
 <pin name="P$1" x="-5.08" y="0" visible="off" length="middle" direction="pwr"/>
 <wire x1="0" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
@@ -17877,7 +17872,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2038638103" urn="urn:adsk.eagle:component:30104255/2" prefix="J" uservalue="yes" library_version="14">
+<deviceset name="2038638103" urn="urn:adsk.eagle:component:30104255/4" prefix="J" uservalue="yes" library_version="16">
 <gates>
 <gate name="G$1" symbol="2038638103" x="5.08" y="0"/>
 </gates>
@@ -17887,7 +17882,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30104253/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30104253/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -18706,7 +18701,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/8"/>
+<part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/6"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -18735,10 +18730,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:26872615/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="H1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
-<part name="H4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/1"/>
+<part name="H1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
+<part name="H4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:26858043/2"/>
 <part name="TP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="DESIGNER" value=""/>
@@ -18797,8 +18792,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R6" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" deviceset="RS02B2R000FE70" device="" package3d_urn="urn:adsk.eagle:package:29301001/2"/>
 <part name="R7" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" deviceset="RS02B2R000FE70" device="" package3d_urn="urn:adsk.eagle:package:29301001/2"/>
-<part name="J1" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/3" value="Power In"/>
-<part name="J2" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/3" value="Power Out"/>
+<part name="J1" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/5" value="Power In"/>
+<part name="J2" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" deviceset="2038638103" device="" package3d_urn="urn:adsk.eagle:package:30104253/5" value="Power Out"/>
 </parts>
 <sheets>
 <sheet>
@@ -19145,8 +19140,8 @@ resistors cuts a down string.</text>
 <attribute name="VALUE" x="220.98" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="236.22" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="238.76" y="187.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="238.76" y="185.42" size="1.778" layer="96"/>
+<attribute name="NAME" x="238.76" y="185.42" size="1.778" layer="95"/>
+<attribute name="VALUE" x="238.76" y="182.88" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
