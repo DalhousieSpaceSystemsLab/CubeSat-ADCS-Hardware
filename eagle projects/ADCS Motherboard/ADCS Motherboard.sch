@@ -10411,113 +10411,6 @@
 <text x="-2.74" y="-2.71" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="-3.4" y="1.6" radius="0.2" width="0.35" layer="21"/>
 </package>
-<package name="1X06" urn="urn:adsk.eagle:footprint:26872613/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="square" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06/90" urn="urn:adsk.eagle:footprint:22362/1" library_version="134" library_locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
-<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
-</package>
 <package name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:footprint:27602898/1" library_version="137" library_locally_modified="yes">
 <smd name="10" x="2.54" y="2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="8" x="1.27" y="2.02" dx="0.65" dy="2.76" layer="1"/>
@@ -12843,18 +12736,6 @@
 <packageinstance name="BNO055"/>
 </packageinstances>
 </package3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:26872615/1" type="model" library_version="134" library_locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="1X06"/>
-</packageinstances>
-</package3d>
-<package3d name="1X06/90" urn="urn:adsk.eagle:package:22475/2" type="model" library_version="134" library_locally_modified="yes">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X06/90"/>
-</packageinstances>
-</package3d>
 <package3d name="TE-1734829-3" urn="urn:adsk.eagle:package:27602903/2" type="model" library_version="138">
 <packageinstances>
 <packageinstance name="TE-1734829-3"/>
@@ -13316,20 +13197,6 @@
 MOTION CO-PROCESSOR</text>
 <text x="-17.78" y="29.21" size="1.27" layer="95">&gt;NAME</text>
 <text x="-17.78" y="26.67" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="PINHD6" urn="urn:adsk.eagle:symbol:26872612/1" library_version="134" library_locally_modified="yes">
-<wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 <symbol name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:symbol:27602895/1" library_version="137" library_locally_modified="yes">
 <pin name="1" x="-10.16" y="10.16" length="middle"/>
@@ -14106,50 +13973,6 @@ MOTION CO-PROCESSOR</text>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PINHD-1X6" urn="urn:adsk.eagle:component:26872616/1" prefix="JP" uservalue="yes" library_version="134" library_locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="1X06">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26872615/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="79" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="/90" package="1X06/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22475/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="10" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -24627,6 +24450,78 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="830-10-006-20-005000">
+<packages>
+<package name="830-10-006-20-005000">
+<wire x1="-1" y1="-9" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="11" y1="1" x2="11" y2="-9" width="0.127" layer="21"/>
+<wire x1="11" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="11" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-9.25" x2="-1.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-1.25" y1="1.25" x2="11.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="11.25" y1="1.25" x2="11.25" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="11.25" y1="-9.25" x2="-1.25" y2="-9.25" width="0.05" layer="39"/>
+<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-11" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.25" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.9" diameter="1.25"/>
+<pad name="3" x="4" y="0" drill="0.9" diameter="1.25"/>
+<pad name="4" x="6" y="0" drill="0.9" diameter="1.25"/>
+<pad name="5" x="8" y="0" drill="0.9" diameter="1.25"/>
+<pad name="6" x="10" y="0" drill="0.9" diameter="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="830-10-006-20-005000">
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="-5.58" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="6" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="830-10-006-20-005000" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/2355104-4/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="830-10-006-20-005000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="830-10-006-20-005000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="COMMENT" value="2355104-4"/>
+<attribute name="DESCRIPTION" value=" Pin 4P,2MM,BRK HDR,SRVT,2.8,0.1AU,TB W/CAP 4 POS "/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="2355104-4"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2355104-4/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Thomas Christison"/>
@@ -24856,7 +24751,6 @@ Source: www.kingbright.com</description>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="JP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:26872615/1"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
@@ -24907,7 +24801,6 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
 <part name="J7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-3" device="" package3d_urn="urn:adsk.eagle:package:27602903/2"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -24951,6 +24844,8 @@ Source: www.kingbright.com</description>
 <part name="J2B" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J3" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
+<part name="J8" library="830-10-006-20-005000" deviceset="830-10-006-20-005000" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25718,13 +25613,13 @@ Source: www.kingbright.com</description>
 <plain>
 <text x="5.08" y="195.58" size="1.778" layer="97">PWM_OUT</text>
 <text x="172.72" y="53.34" size="1.778" layer="97">OBC CONNECTOR</text>
-<text x="238.76" y="93.98" size="1.778" layer="97">&lt;&lt;</text>
-<text x="147.32" y="71.12" size="1.778" layer="97">&lt;&lt;</text>
-<text x="142.24" y="60.96" size="1.778" layer="97">&gt;&gt;</text>
+<text x="231.14" y="86.36" size="1.778" layer="97">&lt;&lt;</text>
+<text x="142.24" y="68.58" size="1.778" layer="97">&lt;&lt;</text>
+<text x="142.24" y="63.5" size="1.778" layer="97">&gt;&gt;</text>
 <text x="142.24" y="66.04" size="1.778" layer="97">&gt;&gt;</text>
-<text x="228.6" y="81.28" size="1.778" layer="97">&lt;&lt;</text>
-<text x="228.6" y="76.2" size="1.778" layer="97">&lt;&lt;</text>
-<text x="147.32" y="66.04" size="1.778" layer="97">SEN_BRD_3V_PRESENT</text>
+<text x="220.98" y="73.66" size="1.778" layer="97">&lt;&lt;</text>
+<text x="220.98" y="71.12" size="1.778" layer="97">&lt;&lt;</text>
+<text x="142.24" y="66.04" size="1.778" layer="97">SEN_BRD_3V_PRESENT</text>
 <text x="167.64" y="45.72" size="1.778" layer="97">*Add 3.3V overvoltage protection 
 on pins 7, 9, 2, and 4 on next rev</text>
 <text x="172.72" y="121.92" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">EZ-Fet Jumpers for debugging and flashing MSP430 using 
@@ -25775,30 +25670,30 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="P+3" gate="1" x="40.64" y="43.18" smashed="yes">
 <attribute name="VALUE" x="43.18" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="238.76" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="236.22" y="88.6714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="236.22" y="86.1314" size="1.778" layer="96" rot="R180"/>
+<instance part="R4" gate="G$1" x="231.14" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="228.6" y="81.0514" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="228.6" y="78.5114" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="238.76" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="236.22" y="78.5114" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="236.22" y="75.692" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="231.14" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="228.6" y="70.8914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="228.6" y="68.072" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="238.76" y="68.58" smashed="yes">
-<attribute name="VALUE" x="236.855" y="65.405" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="231.14" y="60.96" smashed="yes">
+<attribute name="VALUE" x="229.235" y="67.945" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="GND" x="238.76" y="58.42" smashed="yes">
-<attribute name="VALUE" x="236.855" y="55.245" size="1.778" layer="96"/>
+<instance part="SUPPLY13" gate="GND" x="226.06" y="60.96" smashed="yes">
+<attribute name="VALUE" x="224.155" y="57.785" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="223.52" y="60.96" smashed="yes">
-<attribute name="NAME" x="219.71" y="62.4586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="57.658" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="210.82" y="63.5" smashed="yes">
+<attribute name="NAME" x="207.01" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="231.14" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="235.712" y="64.516" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="235.712" y="66.675" size="1.778" layer="96" rot="R180"/>
+<instance part="LED1" gate="G$1" x="218.44" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="223.012" y="67.056" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="223.012" y="69.215" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="139.7" y="71.12" smashed="yes">
-<attribute name="VALUE" x="142.24" y="73.66" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="142.24" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J4" gate="G$1" x="187.96" y="104.14" smashed="yes">
 <attribute name="NAME" x="181.61" y="109.855" size="1.778" layer="95"/>
@@ -25820,15 +25715,11 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="SUPPLY12" gate="GND" x="205.74" y="180.34" smashed="yes">
 <attribute name="VALUE" x="203.835" y="177.165" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="A" x="175.26" y="190.5" smashed="yes">
-<attribute name="NAME" x="168.91" y="201.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.91" y="180.34" size="1.778" layer="96"/>
+<instance part="+3V1" gate="G$1" x="160.02" y="185.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="157.48" y="187.96" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="160.02" y="203.2" smashed="yes">
-<attribute name="VALUE" x="162.56" y="205.74" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY41" gate="GND" x="160.02" y="182.88" smashed="yes">
-<attribute name="VALUE" x="158.115" y="179.705" size="1.778" layer="96"/>
+<instance part="SUPPLY41" gate="GND" x="160.02" y="198.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="156.845" y="200.025" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY43" gate="GND" x="198.12" y="160.02" smashed="yes" rot="R180">
 <attribute name="VALUE" x="200.025" y="163.195" size="1.778" layer="96" rot="R180"/>
@@ -25876,10 +25767,6 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="P+7" gate="1" x="83.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="86.36" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J11" gate="G$1" x="185.42" y="71.12" smashed="yes">
-<attribute name="NAME" x="180.34" y="88.9" size="1.27" layer="95"/>
-<attribute name="VALUE" x="180.34" y="86.36" size="1.27" layer="96"/>
-</instance>
 <instance part="J7" gate="G$1" x="251.46" y="185.42" smashed="yes">
 <attribute name="NAME" x="248.92" y="195.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="248.92" y="193.04" size="1.27" layer="96"/>
@@ -25924,6 +25811,14 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="SUPPLY9" gate="GND" x="114.3" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="116.205" y="141.605" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="J3" gate="G$1" x="180.34" y="68.58" smashed="yes">
+<attribute name="NAME" x="174.76" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="175.26" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="J8" gate="G$1" x="187.96" y="193.04" smashed="yes">
+<attribute name="NAME" x="182.38" y="200.66" size="1.778" layer="95"/>
+<attribute name="VALUE" x="182.88" y="180.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25935,9 +25830,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="J2B" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="5"/>
-<wire x1="172.72" y1="187.96" x2="149.86" y2="187.96" width="0.1524" layer="91"/>
-<label x="147.32" y="187.96" size="1.778" layer="95"/>
+<wire x1="177.8" y1="195.58" x2="154.94" y2="195.58" width="0.1524" layer="91"/>
+<label x="152.4" y="195.58" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <label x="38.1" y="144.78" size="1.778" layer="95" rot="MR0"/>
@@ -25947,9 +25842,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="UCB0_SPI_MISO" class="0">
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="172.72" y1="195.58" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
-<label x="147.32" y="195.58" size="1.778" layer="95"/>
+<wire x1="177.8" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
+<label x="152.4" y="187.96" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="167.64" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
@@ -25964,9 +25859,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="UCB0_SPI_MOSI" class="0">
 <segment>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="172.72" y1="193.04" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
-<label x="147.32" y="193.04" size="1.778" layer="95"/>
+<wire x1="177.8" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91"/>
+<label x="152.4" y="190.5" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
@@ -26023,9 +25918,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="ACT_BRD_3V_PRESENT" class="0">
 <segment>
-<wire x1="231.14" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
-<label x="198.12" y="76.2" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="4"/>
+<wire x1="223.52" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
+<label x="193.04" y="71.12" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="200.66" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
@@ -26036,9 +25931,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="ACT_BRD_5V_PRESENT" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<label x="243.84" y="93.98" size="1.778" layer="95"/>
-<wire x1="238.76" y1="91.44" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="236.22" y="86.36" size="1.778" layer="95"/>
+<wire x1="231.14" y1="83.82" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="86.36" x2="248.92" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="200.66" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
@@ -26135,8 +26030,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="139.7" y1="68.58" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="7"/>
+<wire x1="139.7" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="187.96" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
@@ -26152,9 +26047,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="160.02" y1="200.66" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="160.02" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="3V3"/>
@@ -26175,7 +26069,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="236.22" y1="60.96" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -26189,9 +26083,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="J6" gate="A" pin="3"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="6"/>
-<wire x1="172.72" y1="185.42" x2="160.02" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="198.12" x2="162.56" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
@@ -26246,9 +26140,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="UCA0TXD" class="0">
 <segment>
-<label x="160.02" y="76.2" size="1.778" layer="95"/>
-<wire x1="175.26" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="3"/>
+<label x="154.94" y="71.12" size="1.778" layer="95"/>
+<wire x1="170.18" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
@@ -26258,9 +26152,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="UCA0RXD" class="0">
 <segment>
-<label x="160.02" y="81.28" size="1.778" layer="95"/>
-<wire x1="175.26" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="1"/>
+<label x="154.94" y="73.66" size="1.778" layer="95"/>
+<wire x1="170.18" y1="73.66" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -26284,31 +26178,31 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<junction x="238.76" y="81.28"/>
-<wire x1="195.58" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="198.12" y="81.28" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="2"/>
+<junction x="231.14" y="73.66"/>
+<wire x1="190.5" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
+<label x="193.04" y="73.66" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MSP_OBC_RESET" class="0">
 <segment>
-<label x="152.4" y="71.12" size="1.778" layer="95"/>
-<wire x1="175.26" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="5"/>
+<label x="147.32" y="68.58" size="1.778" layer="95"/>
+<wire x1="170.18" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RESERVED_1" class="0">
 <segment>
-<wire x1="220.98" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
-<label x="198.12" y="71.12" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="6"/>
+<wire x1="213.36" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="193.04" y="68.58" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="RESERVED_2" class="0">
 <segment>
-<wire x1="220.98" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
-<label x="198.12" y="66.04" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="8"/>
+<wire x1="213.36" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<label x="190.5" y="66.04" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -26361,10 +26255,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="!CS!_SUN_Z+" class="0">
 <segment>
-<pinref part="JP4" gate="A" pin="4"/>
-<label x="147.32" y="190.5" size="1.778" layer="95"/>
-<wire x1="172.72" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
-<label x="147.32" y="190.5" size="1.778" layer="95"/>
+<label x="152.4" y="193.04" size="1.778" layer="95"/>
+<wire x1="177.8" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
+<label x="152.4" y="193.04" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -26507,9 +26401,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="Z-_SUN_3V_PRESENT" class="0">
 <segment>
-<wire x1="175.26" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="147.32" y="60.96" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="9"/>
+<wire x1="170.18" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="142.24" y="63.5" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <label x="99.06" y="149.86" size="1.778" layer="95" rot="MR0"/>
@@ -26519,10 +26413,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </net>
 <net name="MSP430_ACTIVE" class="0">
 <segment>
-<wire x1="195.58" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<label x="198.12" y="60.96" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="10"/>
+<label x="193.04" y="63.5" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="RW_Z_LOCK" class="0">
