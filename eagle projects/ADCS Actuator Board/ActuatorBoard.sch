@@ -17491,23 +17491,23 @@ physically to board</text>
 </net>
 <net name="RW_X_DIR" class="0">
 <segment>
-<label x="119.38" y="129.54" size="1.778" layer="95"/>
-<wire x1="154.94" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP1B" gate="G$1" pin="1"/>
+<label x="119.38" y="127" size="1.778" layer="95"/>
+<wire x1="154.94" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP1B" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RW_X_SPEED_CTRL" class="0">
 <segment>
-<wire x1="154.94" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
-<label x="119.38" y="142.24" size="1.778" layer="95"/>
-<pinref part="JP1A" gate="G$1" pin="11"/>
+<wire x1="154.94" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<label x="119.38" y="144.78" size="1.778" layer="95"/>
+<pinref part="JP1A" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="RW_Z_DIR" class="0">
 <segment>
-<wire x1="154.94" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
-<label x="119.38" y="147.32" size="1.778" layer="95"/>
-<pinref part="JP1A" gate="G$1" pin="7"/>
+<wire x1="154.94" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="119.38" y="152.4" size="1.778" layer="95"/>
+<pinref part="JP1A" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="UCB0_SPI_CLK" class="0">
@@ -17531,16 +17531,16 @@ physically to board</text>
 </net>
 <net name="RW_Y_DIR" class="0">
 <segment>
-<wire x1="154.94" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="119.38" y="121.92" size="1.778" layer="95"/>
-<pinref part="JP1B" gate="G$1" pin="7"/>
+<wire x1="154.94" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="119.38" y="124.46" size="1.778" layer="95"/>
+<pinref part="JP1B" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RW_Y_SPEED_CTRL" class="0">
 <segment>
-<label x="119.38" y="124.46" size="1.778" layer="95"/>
-<wire x1="154.94" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP1B" gate="G$1" pin="5"/>
+<label x="119.38" y="121.92" size="1.778" layer="95"/>
+<wire x1="154.94" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="JP1B" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -17661,16 +17661,16 @@ physically to board</text>
 </net>
 <net name="RW_Y_LOCK" class="0">
 <segment>
-<wire x1="119.38" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
-<label x="119.38" y="127" size="1.778" layer="95"/>
-<pinref part="JP1B" gate="G$1" pin="3"/>
+<wire x1="119.38" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="119.38" y="119.38" size="1.778" layer="95"/>
+<pinref part="JP1B" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="!CS!_CURR_SENSE_RW" class="0">
 <segment>
-<label x="116.84" y="119.38" size="1.778" layer="95"/>
-<wire x1="154.94" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="JP1B" gate="G$1" pin="9"/>
+<label x="116.84" y="129.54" size="1.778" layer="95"/>
+<wire x1="154.94" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP1B" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!CS!_CURR_SENSE_MTQR" class="0">
@@ -17729,9 +17729,9 @@ physically to board</text>
 </net>
 <net name="RW_X_LOCK" class="0">
 <segment>
-<wire x1="116.84" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<label x="119.38" y="144.78" size="1.778" layer="95"/>
-<pinref part="JP1A" gate="G$1" pin="9"/>
+<wire x1="116.84" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
+<label x="119.38" y="142.24" size="1.778" layer="95"/>
+<pinref part="JP1A" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="MAG_X_FIN" class="0">
@@ -17743,9 +17743,9 @@ physically to board</text>
 </net>
 <net name="RW_Z_LOCK" class="0">
 <segment>
-<wire x1="154.94" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
-<label x="119.38" y="152.4" size="1.778" layer="95"/>
-<pinref part="JP1A" gate="G$1" pin="3"/>
+<wire x1="154.94" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
+<label x="119.38" y="147.32" size="1.778" layer="95"/>
+<pinref part="JP1A" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="MAG_X_RIN" class="0">

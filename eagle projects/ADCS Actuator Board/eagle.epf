@@ -185,7 +185,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:527439"
 UsedLibraryUrn="urn:adsk.eagle:library:5610454"
 UsedLibraryUrn="urn:adsk.eagle:library:10015156"
 UsedLibraryUrn="urn:adsk.eagle:library:116"
-UsedLibraryUrn="urn:adsk.eagle:library:22876504"
 UsedLibraryUrn="urn:adsk.eagle:library:117"
 UsedLibraryUrn="urn:adsk.eagle:library:118"
 UsedLibraryUrn="urn:adsk.eagle:library:119"
@@ -266,11 +265,16 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
+UsedLibrary="C:/Users/Nitro5/Documents/EAGLE/projects/CubeSat-ADCS-Hardware/eagle projects/New Connector Libraries/830-10-003-20-005000.lbr"
+UsedLibrary="C:/Users/Nitro5/Documents/EAGLE/projects/CubeSat-ADCS-Hardware/eagle projects/New Connector Libraries/830-10-004-20-005000.lbr"
+UsedLibrary="C:/Users/Nitro5/Documents/EAGLE/projects/CubeSat-ADCS-Hardware/eagle projects/New Connector Libraries/830-10-006-20-005000.lbr"
+UsedLibrary="C:/Users/Nitro5/Documents/EAGLE/projects/CubeSat-ADCS-Hardware/eagle projects/New Connector Libraries/832-10-008-10-005000.lbr"
+UsedLibrary="C:/Users/Nitro5/Documents/EAGLE/projects/CubeSat-ADCS-Hardware/eagle projects/New Connector Libraries/832-10-012-10-005000.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 1333"
+Screen="3840 1090"
 Window="Win_1"
