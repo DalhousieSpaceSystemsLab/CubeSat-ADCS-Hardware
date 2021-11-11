@@ -24840,8 +24840,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY60" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY70" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
-<part name="J2A" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
-<part name="J2B" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
+<part name="JP2A" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
+<part name="JP2B" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J3" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
@@ -25798,10 +25798,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="JP1" gate="G$1" x="53.34" y="147.32" smashed="yes">
 <attribute name="NAME" x="47.76" y="154.94" size="1.778" layer="95"/>
 </instance>
-<instance part="J2A" gate="G$1" x="60.96" y="195.58" smashed="yes">
+<instance part="JP2A" gate="G$1" x="60.96" y="195.58" smashed="yes">
 <attribute name="NAME" x="55.38" y="205.74" size="1.778" layer="95"/>
 </instance>
-<instance part="J2B" gate="G$1" x="60.96" y="172.72" smashed="yes">
+<instance part="JP2B" gate="G$1" x="60.96" y="172.72" smashed="yes">
 <attribute name="NAME" x="55.38" y="182.88" size="1.778" layer="95"/>
 </instance>
 <instance part="R45" gate="G$1" x="105.664" y="147.32" smashed="yes" rot="MR180">
@@ -25827,7 +25827,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="71.12" y1="172.72" x2="104.14" y2="172.72" width="0.1524" layer="91"/>
 <label x="78.74" y="172.72" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="6"/>
+<pinref part="JP2B" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="177.8" y1="195.58" x2="154.94" y2="195.58" width="0.1524" layer="91"/>
@@ -25849,7 +25849,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="71.12" y1="167.64" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 <label x="78.74" y="167.64" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="10"/>
+<pinref part="JP2B" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <label x="40.64" y="139.7" size="1.778" layer="95" rot="MR0"/>
@@ -25866,7 +25866,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="71.12" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 <label x="78.74" y="170.18" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="8"/>
+<pinref part="JP2B" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <label x="38.1" y="142.24" size="1.778" layer="95" rot="MR0"/>
@@ -25878,42 +25878,42 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="71.12" y1="195.58" x2="93.98" y2="195.58" width="0.1524" layer="91"/>
 <label x="78.74" y="195.58" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="6"/>
+<pinref part="JP2A" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="MAG_Y_RIN" class="0">
 <segment>
 <wire x1="93.98" y1="190.5" x2="71.12" y2="190.5" width="0.1524" layer="91"/>
 <label x="78.74" y="190.5" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="10"/>
+<pinref part="JP2A" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="MAG_Y_FIN" class="0">
 <segment>
 <wire x1="71.12" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
 <label x="78.74" y="187.96" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="12"/>
+<pinref part="JP2A" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="MAG_Z_RIN" class="0">
 <segment>
 <wire x1="71.12" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
 <label x="78.74" y="177.8" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="2"/>
+<pinref part="JP2B" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MAG_Z_FIN" class="0">
 <segment>
 <wire x1="71.12" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
 <label x="78.74" y="175.26" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="4"/>
+<pinref part="JP2B" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MAG_X_FIN" class="0">
 <segment>
 <wire x1="71.12" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="78.74" y="193.04" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="8"/>
+<pinref part="JP2A" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="ACT_BRD_3V_PRESENT" class="0">
@@ -25925,7 +25925,7 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="50.8" y1="200.66" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
 <label x="15.24" y="200.66" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="1"/>
+<pinref part="JP2A" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ACT_BRD_5V_PRESENT" class="0">
@@ -25938,27 +25938,27 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="71.12" y1="200.66" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
 <label x="78.74" y="200.66" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="2"/>
+<pinref part="JP2A" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RW_Y_SPEED_CTRL" class="0">
 <segment>
 <label x="15.24" y="170.18" size="1.778" layer="95"/>
 <wire x1="50.8" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J2B" gate="G$1" pin="7"/>
+<pinref part="JP2B" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="RW_Z_SPEED_CTRL" class="0">
 <segment>
 <wire x1="50.8" y1="195.58" x2="25.4" y2="195.58" width="0.1524" layer="91"/>
 <label x="22.86" y="195.58" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="5"/>
+<pinref part="JP2A" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RW_X_SPEED_CTRL" class="0">
 <segment>
 <label x="22.86" y="190.5" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="9"/>
+<pinref part="JP2A" gate="G$1" pin="9"/>
 <wire x1="50.8" y1="190.5" x2="25.4" y2="190.5" width="0.1524" layer="91"/>
 <junction x="50.8" y="190.5"/>
 </segment>
@@ -25967,35 +25967,35 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="50.8" y1="198.12" x2="22.86" y2="198.12" width="0.1524" layer="91"/>
 <label x="22.86" y="198.12" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="3"/>
+<pinref part="JP2A" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RW_Y_DIR" class="0">
 <segment>
 <wire x1="50.8" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
 <label x="15.24" y="172.72" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="5"/>
+<pinref part="JP2B" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RW_X_DIR" class="0">
 <segment>
 <label x="15.24" y="175.26" size="1.778" layer="95"/>
 <wire x1="50.8" y1="175.26" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="J2B" gate="G$1" pin="3"/>
+<pinref part="JP2B" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="!CS!_CURR_SENSE_RW" class="0">
 <segment>
 <wire x1="50.8" y1="177.8" x2="15.24" y2="177.8" width="0.1524" layer="91"/>
 <label x="15.24" y="177.8" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="1"/>
+<pinref part="JP2B" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!CS!_CURR_SENSE_MTQR" class="0">
 <segment>
 <wire x1="50.8" y1="165.1" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
 <label x="15.24" y="165.1" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="11"/>
+<pinref part="JP2B" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -26423,35 +26423,35 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <wire x1="50.8" y1="193.04" x2="22.86" y2="193.04" width="0.1524" layer="91"/>
 <label x="22.86" y="193.04" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="7"/>
+<pinref part="JP2A" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="RW_X_LOCK" class="0">
 <segment>
 <wire x1="50.8" y1="187.96" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
 <label x="22.86" y="187.96" size="1.778" layer="95"/>
-<pinref part="J2A" gate="G$1" pin="11"/>
+<pinref part="JP2A" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="RW_Y_LOCK" class="0">
 <segment>
 <wire x1="15.24" y1="167.64" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
 <label x="15.24" y="167.64" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="9"/>
+<pinref part="JP2B" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="!CS!_SPD_SENSE_RW" class="0">
 <segment>
 <wire x1="71.12" y1="165.1" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <label x="78.74" y="165.1" size="1.778" layer="95"/>
-<pinref part="J2B" gate="G$1" pin="12"/>
+<pinref part="JP2B" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="J2A" gate="G$1" pin="4"/>
+<pinref part="JP2A" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="!CS!_SUN_X+" class="0">
