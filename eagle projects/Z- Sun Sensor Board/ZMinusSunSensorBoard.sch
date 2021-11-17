@@ -1505,16 +1505,6 @@
 <text x="-3" y="-3" size="1.27" layer="22" rot="MR0">120°</text>
 <text x="6" y="-3" size="1.27" layer="22" rot="MR0">240°</text>
 </package>
-<package name="TE-1734829-2" urn="urn:adsk.eagle:footprint:27602899/1" library_version="144" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="0.55" shape="square"/>
-<pad name="2" x="-1.25" y="0" drill="0.55"/>
-<wire x1="1.5" y1="-0.47" x2="1.5" y2="4.23" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4.23" x2="-2.75" y2="4.23" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="4.23" x2="-2.75" y2="-0.47" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-0.47" x2="-2" y2="-0.47" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.47" x2="0.75" y2="-0.47" width="0.127" layer="21"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:24527016/1" library_version="144" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -1600,11 +1590,6 @@
 <description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SC70-5P65_210X110L36X22N_LM20"/>
-</packageinstances>
-</package3d>
-<package3d name="TE-1734829-2" urn="urn:adsk.eagle:package:27602902/2" type="model" library_version="144" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="TE-1734829-2"/>
 </packageinstances>
 </package3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:24527019/1" type="model" library_version="144" library_locally_modified="yes">
@@ -1840,20 +1825,6 @@
 <pin name="MOUNT" x="-5.08" y="0" visible="off" length="middle" direction="nc"/>
 <pin name="MOUNT1" x="-5.08" y="-7.62" visible="off" length="middle" direction="nc"/>
 <pin name="MOUNT2" x="-5.08" y="-15.24" visible="off" length="middle" direction="nc"/>
-</symbol>
-<symbol name="TE-1734829-2" urn="urn:adsk.eagle:symbol:27602897/1" library_version="144" library_locally_modified="yes">
-<pin name="3V3" x="-5.08" y="0" length="middle"/>
-<pin name="GND" x="-5.08" y="-2.54" length="middle"/>
-<wire x1="-0.635" y1="0.635" x2="0" y2="0" width="0.2032" layer="94"/>
-<wire x1="0" y1="0" x2="-0.635" y2="-0.635" width="0.2032" layer="94"/>
-<wire x1="-0.635" y1="-1.905" x2="0" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-0.635" y2="-3.175" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.2032" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
-<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="PINHD2" urn="urn:adsk.eagle:symbol:24726486/1" library_version="144" library_locally_modified="yes">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
@@ -2115,25 +2086,6 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29580098/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TE-1734829-2" urn="urn:adsk.eagle:component:27602905/2" prefix="J" library_version="144" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="TE-1734829-2" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TE-1734829-2">
-<connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27602902/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -17562,6 +17514,69 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="830-10-003-20-005000">
+<packages>
+<package name="830-10-003-20-005000">
+<wire x1="-1" y1="-9" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="4.999990625" y1="1" x2="4.999990625" y2="-9" width="0.127" layer="21"/>
+<wire x1="4.999990625" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="4.999990625" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-9.25" x2="-1.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-1.25" y1="1.25" x2="5.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="1.25" x2="5.25" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="-9.25" x2="-1.25" y2="-9.25" width="0.05" layer="39"/>
+<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-11" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.25" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.9" diameter="1.25"/>
+<pad name="3" x="4" y="0" drill="0.9" diameter="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="830-10-003-20-005000">
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.58" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="830-10-003-20-005000" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/2355104-4/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="830-10-003-20-005000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="830-10-003-20-005000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="COMMENT" value="2355104-4"/>
+<attribute name="DESCRIPTION" value=" Pin 4P,2MM,BRK HDR,SRVT,2.8,0.1AU,TB W/CAP 4 POS "/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="2355104-4"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2355104-4/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Thomas Christison"/>
@@ -21894,7 +21909,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="FRAME2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
 <attribute name="REVIEWER" value=""/>
 </part>
-<part name="J1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-2" device="" package3d_urn="urn:adsk.eagle:package:27602902/2"/>
 <part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="HDR_1X2" device="_" package3d_urn="urn:adsk.eagle:package:24527019/1"/>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -22133,6 +22147,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="J7" library="830-10-006-20-005000" deviceset="830-10-006-20-005000" device=""/>
 <part name="SUPPLY68" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J2" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
+<part name="J1" library="830-10-003-20-005000" deviceset="830-10-003-20-005000" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22862,10 +22877,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 <attribute name="REVIEWER" x="196.85" y="6.35" size="2.54" layer="94"/>
 </instance>
-<instance part="J1" gate="G$1" x="121.92" y="175.26" smashed="yes">
-<attribute name="NAME" x="119.38" y="182.88" size="1.27" layer="95"/>
-<attribute name="VALUE" x="119.38" y="180.34" size="1.27" layer="96"/>
-</instance>
 <instance part="J3" gate="G$1" x="99.06" y="172.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="105.41" y="178.435" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="105.41" y="167.64" size="1.778" layer="96" rot="MR0"/>
@@ -22938,6 +22949,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="116.34" y="114.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="93.98" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="127" y="170.18" smashed="yes">
+<attribute name="NAME" x="121.42" y="177.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="121.92" y="165.1" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23008,12 +23023,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="3V3"/>
 <wire x1="101.6" y1="175.26" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V23" gate="G$1" pin="+3V3"/>
 <wire x1="111.76" y1="175.26" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="175.26" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
 <junction x="111.76" y="175.26"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="V+"/>
@@ -23039,13 +23054,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="111.76" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="167.64" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
 <junction x="111.76" y="172.72"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND_2"/>

@@ -13682,54 +13682,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="Heating Element" urn="urn:adsk.eagle:library:29300905">
-<packages>
-<package name="ROX02B_VIS" urn="urn:adsk.eagle:footprint:29300999/1" library_version="5" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.6256" shape="square"/>
-<pad name="2" x="22.7076" y="0" drill="1.1176" diameter="1.6256" rot="R180"/>
-<wire x1="3.3274" y1="-2.8956" x2="19.3802" y2="-2.8956" width="0.1524" layer="21"/>
-<wire x1="19.3802" y1="-2.8956" x2="19.3802" y2="2.8956" width="0.1524" layer="21"/>
-<wire x1="19.3802" y1="2.8956" x2="3.3274" y2="2.8956" width="0.1524" layer="21"/>
-<wire x1="3.3274" y1="2.8956" x2="3.3274" y2="-2.8956" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="3.4544" y2="0" width="0.1524" layer="51"/>
-<wire x1="22.7076" y1="0" x2="19.2532" y2="0" width="0.1524" layer="51"/>
-<wire x1="3.4544" y1="-2.7686" x2="19.2532" y2="-2.7686" width="0.1524" layer="51"/>
-<wire x1="19.2532" y1="-2.7686" x2="19.2532" y2="2.7686" width="0.1524" layer="51"/>
-<wire x1="19.2532" y1="2.7686" x2="3.4544" y2="2.7686" width="0.1524" layer="51"/>
-<wire x1="3.4544" y1="2.7686" x2="3.4544" y2="-2.7686" width="0.1524" layer="51"/>
-<text x="8.0772" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="9.6266" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="ROX02B_VIS" urn="urn:adsk.eagle:package:29301001/2" type="model" library_version="5" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="ROX02B_VIS"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="PDUv1" urn="urn:adsk.eagle:library:29653418">
-<packages>
-<package name="2038638103" urn="urn:adsk.eagle:footprint:30104252/4" library_version="16">
-<smd name="P$1" x="3.8" y="1.9" dx="8.4" dy="3.4" layer="1"/>
-<wire x1="-1.27" y1="3.81" x2="8.89" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="3.81" x2="8.89" y2="0" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="0" width="0.1524" layer="21"/>
-<circle x="-1.27" y="1.27" radius="0.5" width="0.1524" layer="21"/>
-<text x="0" y="5.08" size="0.762" layer="25">&gt;Name</text>
-<text x="0" y="3.81" size="0.762" layer="27">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="2038638103" urn="urn:adsk.eagle:package:30104253/5" type="model" library_version="16">
-<packageinstances>
-<packageinstance name="2038638103"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="830-10-006-20-005000">
 <packages>
 <package name="830-10-006-20-005000">
@@ -14257,28 +14209,6 @@ design rules under a new name.</description>
 <element name="U$2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="PHOTODIODE_SILK" package3d_urn="urn:adsk.eagle:package:29580099/1" value="" x="15.24" y="36.5125" smashed="yes" rot="MR60"/>
 <element name="U$3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="PHOTODIODE_SILK" package3d_urn="urn:adsk.eagle:package:29580099/1" value="" x="30.48" y="62.865" smashed="yes" rot="MR180"/>
 <element name="U$4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="PHOTODIODE_SILK" package3d_urn="urn:adsk.eagle:package:29580099/1" value="" x="45.4025" y="36.5125" smashed="yes" rot="MR300"/>
-<element name="R6" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" package="ROX02B_VIS" package3d_urn="urn:adsk.eagle:package:29301001/2" value="RS02B2R000FE70" x="54.2925" y="80.01" smashed="yes" rot="MR0">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="54.2925" y="80.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RS02B2R000FE70" x="54.2925" y="80.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="48.1203" y="79.375" size="1.27" layer="26" ratio="6" rot="SMR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" x="54.2925" y="80.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VENDOR" value="Vishay" x="54.2925" y="80.01" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R7" library="Heating Element" library_urn="urn:adsk.eagle:library:29300905" package="ROX02B_VIS" package3d_urn="urn:adsk.eagle:package:29301001/2" value="RS02B2R000FE70" x="10.16" y="73.3425" smashed="yes" rot="MR270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="10.16" y="73.3425" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RS02B2R000FE70" x="10.16" y="73.3425" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="10.79499375" y="65.2653" size="1.27" layer="26" ratio="6" rot="SMR270"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" x="10.16" y="73.3425" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VENDOR" value="Vishay" x="10.16" y="73.3425" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="J1" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" package="2038638103" package3d_urn="urn:adsk.eagle:package:30104253/5" value="Power In" x="26.3525" y="82.2325" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.7975" y="82.8675" size="0.762" layer="25"/>
-<attribute name="VALUE" x="26.67" y="72.39" size="0.762" layer="27"/>
-</element>
-<element name="J2" library="PDUv1" library_urn="urn:adsk.eagle:library:29653418" package="2038638103" package3d_urn="urn:adsk.eagle:package:30104253/5" value="Power Out" x="21.59" y="82.2325" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.32" y="82.8675" size="0.762" layer="25"/>
-<attribute name="VALUE" x="20.6375" y="72.39" size="0.762" layer="27"/>
-</element>
 <element name="JP3" library="830-10-006-20-005000" package="830-10-006-20-005000" value="830-10-006-20-005000" x="75.2475" y="41.5925" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="75.2475" y="41.5925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMENT" value="2355104-4" x="75.2475" y="41.5925" size="1.778" layer="27" rot="R90" display="off"/>
@@ -14965,40 +14895,6 @@ design rules under a new name.</description>
 <contactref element="R18" pad="1"/>
 <wire x1="47.3075" y1="35.8625" x2="48.5775" y2="35.8625" width="0.2032" layer="1"/>
 <wire x1="48.5775" y1="35.8625" x2="48.5775" y2="34.94033125" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$5">
-<contactref element="R6" pad="2"/>
-<contactref element="R7" pad="2"/>
-<contactref element="J1" pad="P$1"/>
-<wire x1="31.5849" y1="80.01" x2="30.0074" y2="78.4325" width="3.048" layer="1"/>
-<wire x1="30.0074" y1="78.4325" x2="28.2525" y2="78.4325" width="3.048" layer="1"/>
-<wire x1="28.2525" y1="78.4325" x2="28.2525" y2="68.7274" width="3.048" layer="1"/>
-<wire x1="28.2525" y1="68.7274" x2="10.16" y2="50.6349" width="3.048" layer="1"/>
-</signal>
-<signal name="N$6">
-<contactref element="R6" pad="1"/>
-<contactref element="R7" pad="1"/>
-<via x="23.495" y="79.6925" extent="1-16" drill="0.35"/>
-<via x="24.4475" y="78.105" extent="1-16" drill="0.35"/>
-<via x="23.495" y="76.5175" extent="1-16" drill="0.35"/>
-<via x="22.5425" y="78.105" extent="1-16" drill="0.35"/>
-<wire x1="39.37" y1="80.01" x2="36.195" y2="76.835" width="3.048" layer="16"/>
-<wire x1="36.195" y1="76.835" x2="25.0825" y2="76.835" width="3.048" layer="16"/>
-<wire x1="25.0825" y1="76.835" x2="23.1775" y2="78.74" width="3.048" layer="16"/>
-<wire x1="54.2925" y1="80.01" x2="39.37" y2="80.01" width="3.048" layer="16"/>
-<wire x1="22.5425" y1="78.105" x2="23.495" y2="77.1525" width="3.048" layer="16"/>
-<wire x1="23.495" y1="77.1525" x2="23.495" y2="76.5175" width="3.048" layer="16"/>
-<wire x1="23.495" y1="79.6925" x2="23.495" y2="79.0575" width="3.048" layer="16"/>
-<wire x1="23.495" y1="79.0575" x2="24.4475" y2="78.105" width="3.048" layer="16"/>
-<contactref element="J2" pad="P$1"/>
-<wire x1="23.49" y1="72.7025" x2="19.685" y2="68.8975" width="3.048" layer="1"/>
-<wire x1="23.49" y1="72.7025" x2="23.49" y2="78.4325" width="3.048" layer="1"/>
-<wire x1="12.065" y1="68.8975" x2="10.16" y2="70.8025" width="3.048" layer="1"/>
-<wire x1="19.685" y1="68.8975" x2="12.065" y2="68.8975" width="3.048" layer="1"/>
-<wire x1="10.16" y1="70.8025" x2="10.16" y2="73.3425" width="2.54" layer="1"/>
-<wire x1="23.49" y1="78.4325" x2="23.1775" y2="78.74" width="0" layer="19" extent="1-16"/>
-<wire x1="22.5425" y1="78.105" x2="23.1775" y2="78.74" width="0" layer="19" extent="16-16"/>
-<wire x1="23.495" y1="79.6925" x2="23.1775" y2="78.74" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$94">
 <via x="80.645" y="43.815" extent="1-16" drill="0.35"/>

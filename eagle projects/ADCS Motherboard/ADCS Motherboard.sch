@@ -10433,18 +10433,6 @@
 <wire x1="-3.175" y1="-4.445" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
 <text x="-6.35" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="TE-1734829-3" urn="urn:adsk.eagle:footprint:27602900/1" library_version="137" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="0.55" shape="square"/>
-<pad name="2" x="-1.25" y="0" drill="0.55"/>
-<pad name="3" x="-2.54" y="0" drill="0.55"/>
-<wire x1="1.5" y1="-0.47" x2="1.5" y2="4.23" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4.23" x2="-2.75" y2="4.23" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.47" x2="0.75" y2="-0.47" width="0.127" layer="21"/>
-<wire x1="-4" y1="4.23" x2="-2.75" y2="4.23" width="0.127" layer="21"/>
-<wire x1="-4" y1="4.23" x2="-4" y2="-0.47" width="0.127" layer="21"/>
-<wire x1="-4" y1="-0.47" x2="-3.25" y2="-0.47" width="0.127" layer="21"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="QFN14P50_300X250X100L47X25N" urn="urn:adsk.eagle:footprint:28675204/1" library_version="141">
 <description>Quad Flat No-Lead (QFN), 0.50 mm pitch; rect., 3 pin X 4 pin, 3.00 mm L X 2.50 mm W X 1.00 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-1.365" y="0.75" dx="0.79" dy="0.27" layer="1" roundness="52" rot="R180" stop="no" cream="no"/>
@@ -12736,11 +12724,6 @@
 <packageinstance name="BNO055"/>
 </packageinstances>
 </package3d>
-<package3d name="TE-1734829-3" urn="urn:adsk.eagle:package:27602903/2" type="model" library_version="138">
-<packageinstances>
-<packageinstance name="TE-1734829-3"/>
-</packageinstances>
-</package3d>
 <package3d name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:package:27602901/2" type="model" library_version="138">
 <packageinstances>
 <packageinstance name="CNC_3221-10-0300-00"/>
@@ -13215,23 +13198,6 @@ MOTION CO-PROCESSOR</text>
 <wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
 <text x="-5.08" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="15.24" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="TE-1734829-3" urn="urn:adsk.eagle:symbol:27602896/1" library_version="137" library_locally_modified="yes">
-<pin name="5V" x="-5.08" y="2.54" length="middle"/>
-<pin name="3V3" x="-5.08" y="0" length="middle"/>
-<pin name="GND" x="-5.08" y="-2.54" length="middle"/>
-<wire x1="0" y1="2.54" x2="-0.635" y2="3.175" width="0.2032" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.635" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="0" y2="0" width="0.2032" layer="94"/>
-<wire x1="0" y1="0" x2="-0.635" y2="-0.635" width="0.2032" layer="94"/>
-<wire x1="-0.635" y1="-1.905" x2="0" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-0.635" y2="-3.175" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.2032" layer="94"/>
-<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="BMX160" urn="urn:adsk.eagle:symbol:28675203/1" library_version="141">
 <pin name="SDO" x="-17.78" y="7.62" length="middle"/>
@@ -13997,26 +13963,6 @@ MOTION CO-PROCESSOR</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:27602901/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TE-1734829-3" urn="urn:adsk.eagle:component:27602906/2" prefix="J" library_version="138">
-<gates>
-<gate name="G$1" symbol="TE-1734829-3" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TE-1734829-3">
-<connects>
-<connect gate="G$1" pin="3V3" pad="2"/>
-<connect gate="G$1" pin="5V" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27602903/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22536,6 +22482,69 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="830-10-003-20-005000">
+<packages>
+<package name="830-10-003-20-005000">
+<wire x1="-1" y1="-9" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="4.999990625" y1="1" x2="4.999990625" y2="-9" width="0.127" layer="21"/>
+<wire x1="4.999990625" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="4.999990625" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-9.25" x2="-1.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-1.25" y1="1.25" x2="5.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="1.25" x2="5.25" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="-9.25" x2="-1.25" y2="-9.25" width="0.05" layer="39"/>
+<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-11" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.65" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.25" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.9" diameter="1.25"/>
+<pad name="3" x="4" y="0" drill="0.9" diameter="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="830-10-003-20-005000">
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.58" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="830-10-003-20-005000" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/2355104-4/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="830-10-003-20-005000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="830-10-003-20-005000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="COMMENT" value="2355104-4"/>
+<attribute name="DESCRIPTION" value=" Pin 4P,2MM,BRK HDR,SRVT,2.8,0.1AU,TB W/CAP 4 POS "/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="2355104-4"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2355104-4/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Thomas Christison"/>
@@ -22804,7 +22813,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-3" device="" package3d_urn="urn:adsk.eagle:package:27602903/2"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -22849,6 +22857,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J3" library="832-10-012-10-005000" deviceset="832-10-012-10-005000" device=""/>
 <part name="J8" library="830-10-006-20-005000" deviceset="830-10-006-20-005000" device=""/>
+<part name="J7" library="830-10-003-20-005000" deviceset="830-10-003-20-005000" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23759,10 +23768,6 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="P+7" gate="1" x="83.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="86.36" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J7" gate="G$1" x="251.46" y="185.42" smashed="yes">
-<attribute name="NAME" x="248.92" y="195.58" size="1.27" layer="95"/>
-<attribute name="VALUE" x="248.92" y="193.04" size="1.27" layer="96"/>
-</instance>
 <instance part="P+4" gate="1" x="243.84" y="193.04" smashed="yes">
 <attribute name="VALUE" x="246.38" y="195.58" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23810,6 +23815,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="J8" gate="G$1" x="187.96" y="193.04" smashed="yes">
 <attribute name="NAME" x="182.38" y="200.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="180.34" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="G$1" x="256.54" y="182.88" smashed="yes">
+<attribute name="NAME" x="250.96" y="190.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.46" y="177.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24012,10 +24021,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="5V"/>
 <wire x1="246.38" y1="187.96" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <wire x1="243.84" y1="187.96" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -24043,10 +24052,10 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="J8" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="3V3"/>
 <wire x1="246.38" y1="185.42" x2="238.76" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="238.76" y1="185.42" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24110,9 +24119,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="SUPPLY66" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="GND"/>
 <wire x1="246.38" y1="182.88" x2="238.76" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<pinref part="J7" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
